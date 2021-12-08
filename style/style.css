@@ -545,6 +545,11 @@
                 margin-top: 90px;
             }
             
+            #gallery-image img {
+                width: 30%;
+                height: 30%;
+            }
+            
             .gallery-title {
                 color: #7e8dc6;
                 font-size: 28px;

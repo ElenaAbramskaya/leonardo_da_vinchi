@@ -44,16 +44,26 @@ const paint_title11 = document.getElementsByClassName('painting-image-title11');
 
 function openImage(event) {
     const imageSource = event.target.src;
-    console.log(imageSource);
 
-    // window.location.href = "product.html";
+    const gallery = document.getElementById('gallery');
+    gallery.hidden = true;
 
-    // let first_img = document.getElementsByClassName('gall-img');
+    const galleryImage = document.getElementById('gallery-image');
+    console.log(galleryImage)
+    let image = document.createElement('img');
+    image.src = imageSource;
+    galleryImage.appendChild(image);
+    galleryImage.hidden = false;
 
-    // let image = document.createElement('img');
-    // pic.src = "img/gallery-img-2.jpg";
-    // first_img.appendChild(image);
 };
+
+function closeImage() {
+    const gallery = document.getElementById('gallery');
+    gallery.hidden = false;
+
+    const galleryImage = document.getElementById('gallery-image');
+    galleryImage.hidden = true;
+}
 
 function addImageClickListener() {
     const galleryElements = document.getElementsByClassName('gallery-img');
