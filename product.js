@@ -3,8 +3,7 @@
 // let paint_title = document.getElementsByClassName('painting-image-title');
 
 // let paintings = {
-
-//     title: '«Богоматерь с Младенцем и святой Анной»',
+//     image: title: '«Богоматерь с Младенцем и святой Анной»',
 //     description: 'Lorem ipsum'
 // };
 // let keyimage = paintings.image;
@@ -17,17 +16,18 @@
 // let image = document.getElementsByClassName('gall-img');
 // a = document.createElement('a');
 // a.href = 'product.html';
-function changePage() {
-    window.location.href = "product.html";
 
-    let first_img = document.getElementsByClassName('gall-img');
+// function changePage() {
+//     window.location.href = "product.html";
 
-    let image = document.createElement('img');
-    pic.src = "img/gallery-img-2.jpg";
-    first_img.appendChild(image);
+//     let first_img = document.getElementsByClassName('gall-img');
+
+//     let image = document.createElement('img');
+//     pic.src = "img/gallery-img-2.jpg";
+//     first_img.appendChild(image);
 
 
-};
+// };
 
 function addText() {
 

@@ -41,3 +41,24 @@ const paint_title11 = document.getElementsByClassName('painting-image-title11');
 
 //     return paint.innerHTML = img1;
 // };
+
+function openImage(event) {
+    const imageSource = event.target.src;
+    console.log(imageSource);
+
+    // window.location.href = "product.html";
+
+    // let first_img = document.getElementsByClassName('gall-img');
+
+    // let image = document.createElement('img');
+    // pic.src = "img/gallery-img-2.jpg";
+    // first_img.appendChild(image);
+};
+
+function addImageClickListener() {
+    const galleryElements = document.getElementsByClassName('gallery-img');
+    if (galleryElements && galleryElements.length > 0) {
+        const galleryElement = galleryElements[0];
+        galleryElement.addEventListener('click', openImage);
+    }
+}
