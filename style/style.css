@@ -635,6 +635,37 @@
                 text-align: center;
             }
             
+            .first-feedback {
+                display: flex;
+                margin-top: 45px;
+                margin-bottom: 20px;
+            }
+            
+            .first-feedback img {
+                border-radius: 10px;
+            }
+            
+            .author-feedback {
+                margin-top: 15px;
+            }
+            
+            .text {
+                color: #7e8dc6;
+                font-size: 16px;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 30px;
+                line-height: 30px;
+                margin-top: 10px;
+            }
+            
+            .text-sign {
+                color: #876d89;
+                font-size: 16px;
+                font-weight: bold;
+                margin-left: 20px;
+            }
+            
             .form {
                 display: flex;
                 flex-direction: column;
