@@ -550,6 +550,11 @@
                 height: 30%;
             }
             
+            .img-title {
+                color: #7e8dc6;
+                font-size: 15px;
+            }
+            
             .gallery-title {
                 color: #7e8dc6;
                 font-size: 28px;
@@ -590,14 +595,6 @@
             }
             
             .topbutton {
-                border-radius: 7px;
-                padding: 15px 20px;
-                font-weight: bold;
-                color: #7e8dc6;
-                background-color: #d6d0c2;
-            }
-            
-            .add-painting {
                 border-radius: 7px;
                 padding: 15px 20px;
                 font-weight: bold;
