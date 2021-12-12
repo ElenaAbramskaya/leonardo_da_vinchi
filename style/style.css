@@ -44,6 +44,7 @@
             .container {
                 width: 1445px;
                 background-color: #f8f4eb;
+                padding-bottom: 50px;
             }
             
             .main-title-information {
@@ -716,9 +717,9 @@
                 grid-template-columns: 60% 40%;
                 background-color: #d5cdc0;
                 height: 100px;
-                margin-top: 50px;
                 color: #000;
                 font-weight: bold;
+                width: 1445px;
             }
             
             .footer-description {
