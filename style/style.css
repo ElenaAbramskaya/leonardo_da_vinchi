@@ -686,11 +686,6 @@
                 font-weight: bold;
             }
             
-            .form-btn {
-                width: 90px;
-                height: 40px;
-            }
-            
             .form input,
             textarea {
                 border-radius: 5px;
@@ -698,6 +693,8 @@
             }
             
             .form-btn {
+                width: 90px;
+                height: 40px;
                 margin-top: 20px;
                 color: #7e8dc6;
                 font-size: 15px;
@@ -757,4 +754,69 @@
             .page-links img {
                 display: flex;
                 align-items: center;
+            }
+            /*registration-page */
+            
+            .registration {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .form-title {
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            
+            .registration-form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 700px;
+                background-color: #dde7e9;
+                border-radius: 7px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                color: #7e8dc6;
+                font-weight: bold;
+                margin-top: 50px;
+                font-size: 18px;
+            }
+            
+            #agree {
+                width: 200px;
+                font-size: 14px;
+            }
+            
+            .form-btn2 {
+                width: 140px;
+                height: 40px;
+                margin-top: 20px;
+                color: #7e8dc6;
+                font-size: 14px;
+                background-color: #d6d0c2;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                padding: 5px 10px;
+                border-radius: 7px;
+                font-weight: bold;
+            }
+            
+            #education,
+            #name,
+            #surname,
+            #email,
+            #password,
+            #city,
+            #country,
+            #username {
+                width: 300px;
+            }
+            
+            .registration-text,
+            #agree {
+                width: 300px;
             }
