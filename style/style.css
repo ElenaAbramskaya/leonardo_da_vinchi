@@ -805,7 +805,6 @@
                 font-weight: bold;
             }
             
-            #education,
             #name,
             #surname,
             #email,
@@ -813,10 +812,12 @@
             #city,
             #country,
             #username {
-                width: 300px;
+                width: 250px;
+                margin-right: 50px;
             }
             
             .registration-text,
-            #agree {
+            #agree,
+            #education {
                 width: 300px;
             }
