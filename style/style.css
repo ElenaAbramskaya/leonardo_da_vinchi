@@ -587,19 +587,14 @@
                 margin-top: 30px;
             }
             
-            .gallery-btn a {
-                text-decoration: none;
-                color: #7e8dc6;
-                font-size: 15px;
-                font-weight: bold;
-            }
-            
             .topbutton {
                 border-radius: 7px;
                 padding: 15px 20px;
                 font-weight: bold;
                 color: #7e8dc6;
                 background-color: #d6d0c2;
+                text-decoration: none;
+                font-size: 15px;
             }
             /*product-page */
             
@@ -820,4 +815,180 @@
             #agree,
             #education {
                 width: 300px;
+            }
+            /* user account page*/
+            
+            .page-header {
+                display: grid;
+                grid-template-areas: "page-title user-topbutton";
+                grid-template-columns: 80% 20%;
+            }
+            
+            .page-title {
+                text-align: center;
+                color: #876d89;
+                font-size: 25px;
+                font-weight: bold;
+                padding-top: 40px;
+            }
+            
+            .user-topbutton {
+                border-radius: 7px;
+                padding: 15px 20px;
+                font-weight: bold;
+                color: #7e8dc6;
+                background-color: #d6d0c2;
+                text-decoration: none;
+                font-size: 16px;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                margin-left: 70px;
+            }
+            
+            .user-account-part {
+                display: grid;
+                grid-template-areas: "personal-account navigation-btn";
+                grid-template-columns: 70% 30%;
+                margin-top: 50px;
+            }
+            
+            .navigation-btn {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 40px;
+            }
+            
+            .navigation-btn a {
+                margin-top: 20px;
+                color: #876d89;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            
+            .user-chat {
+                display: flex;
+                justify-content: space-around;
+                width: 217px;
+                margin-top: 40px;
+            }
+            
+            .our-friends {
+                margin-top: 70px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 217px;
+                background-color: #dde7e9;
+                border-radius: 7px;
+                padding-bottom: 20px;
+            }
+            
+            .our-friends-title {
+                text-align: center;
+                color: #7e8dc6;
+                font-size: 18px;
+                font-weight: bold;
+                padding-top: 20px;
+            }
+            
+            .our-friends a {
+                font-size: 14px;
+            }
+            
+            .personal-account {
+                background-color: #dde7e9;
+                padding-top: 60px;
+                margin-left: 60px;
+                padding-bottom: 60px;
+                border-radius: 7px;
+            }
+            
+            .personal-account-title {
+                text-align: center;
+                color: #7e8dc6;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            
+            .personality {
+                display: grid;
+                grid-template-areas: "personality-face personality-description";
+                grid-template-columns: 40% 60%;
+                margin-top: 30px;
+            }
+            
+            .personality img {
+                width: 200px;
+                height: 200px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+            
+            .personality a {
+                margin-top: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                color: #4f699a;
+            }
+            
+            .personality-face {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 40px;
+            }
+            
+            .personality-description {
+                margin-bottom: 40px;
+            }
+            
+            .personality-description div {
+                margin-top: 10px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            
+            .name-description {
+                display: grid;
+                grid-template-areas: "name-title name-example";
+                grid-template-columns: 40% 60%;
+            }
+            
+            .name-example {
+                margin-left: 20px;
+                color: #7e8dc6;
+            }
+            
+            .name-title {
+                color: #876d89;
+            }
+            
+            .btn-correct {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .add-topic {
+                border-radius: 7px;
+                padding: 15px 20px;
+                font-weight: bold;
+                color: #7e8dc6;
+                background-color: #d6d0c2;
+                text-decoration: none;
+                font-size: 16px;
+            }
+            
+            .edit {
+                border-radius: 7px;
+                padding: 15px 20px;
+                font-weight: bold;
+                color: #7e8dc6;
+                background-color: #d6d0c2;
+                text-decoration: none;
+                font-size: 16px;
             }
