@@ -1,4 +1,4 @@
-            body {
+                body {
                 font-family: 'Montserrat', sans-serif;
             }
             
@@ -992,3 +992,14 @@
                 text-decoration: none;
                 font-size: 16px;
             }
+            /*mobile version */
+            
+            @media screen and (max-width:360px) {
+                body {
+                    width: 360px;
+                }
+                header {
+                    width: 320px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
