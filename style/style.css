@@ -1007,18 +1007,21 @@
                     width: 480px;
                 }
                 header {
-                    width: 320px;
+                    width: 420px;
                     padding-right: 20px;
                     padding-left: 20px;
                     display: grid;
-                    grid-template-areas: "title-name ic-menu";
-                    grid-template-columns: 75% 25%;
+                    grid-template-areas: "title-name";
+                    grid-template-columns: 100%;
+                }
+                .title-name {
+                    font-size: 20px;
                 }
                 .research {
                     visibility: hidden;
                 }
                 .container {
-                    width: 360px;
+                    width: 480px;
                 }
                 .title-page-img {
                     visibility: hidden;
@@ -1028,25 +1031,29 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin-left: 60px;
                     color: #000;
                     margin-top: 20px;
+                    margin-right: 20px;
                 }
                 .menu-list {
                     display: flex;
-                    font-weight: bold;
-                    flex-direction: row;
-                    flex-wrap: wrap;
                     background-color: #f8f4eb;
+                    align-items: flex-start;
+                    margin-left: 20px;
                 }
                 .menu-list-name {
-                    font-size: 15px;
+                    display: flex;
+                    font-weight: bold;
+                    font-size: 18px;
                     color: #000;
+                    padding-left: 0px;
+                    padding-right: 0px;
                 }
                 .main-title-information {
                     display: grid;
                     grid-template-areas: "menu-list user-access";
                     grid-template-columns: 100% 100%;
+                    justify-items: center;
                 }
                 .user-access {
                     display: flex;
@@ -1054,6 +1061,9 @@
                 }
                 .user-account {
                     margin-left: 0px;
+                    width: 240px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
                 }
                 .user-blog {
                     display: flex;
@@ -1071,18 +1081,18 @@
                     margin-left: 0px;
                 }
                 #biography {
-                    width: 360px;
+                    width: 480px;
                     display: flex;
                     flex-direction: column;
                 }
                 .biography-page {
-                    width: 360px;
+                    width: 480px;
                     margin-left: 80px;
                     margin-right: 80px;
                 }
                 .biography-page-img>img {
-                    width: 200px;
-                    height: 140px;
+                    width: 300px;
+                    height: 210px;
                     background-image: none;
                     border-radius: 10px;
                 }
