@@ -1,5 +1,6 @@
-                body {
+            body {
                 font-family: 'Montserrat', sans-serif;
+                width: 1445px;
             }
             
             header {
@@ -47,12 +48,15 @@
                 padding-bottom: 50px;
             }
             
+            .ic-menu {
+                visibility: hidden;
+            }
+            
             .main-title-information {
                 display: grid;
                 grid-template-areas: "menu-list title-page-img user-access";
                 grid-template-columns: 25% 50% 25%;
                 padding-top: 60px;
-                margin: 0 auto;
             }
             
             .menu-list {
@@ -219,6 +223,10 @@
                 color: #7e8dc6;
                 width: 500px;
                 text-align: center;
+                margin-top: 21.44px;
+                margin-bottom: 21.44px;
+                font-size: 2em;
+                font-weight: bold;
             }
             
             .wise-quote {
@@ -1002,4 +1010,93 @@
                     width: 320px;
                     padding-right: 20px;
                     padding-left: 20px;
+                    display: grid;
+                    grid-template-areas: "title-name ic-menu";
+                    grid-template-columns: 75% 25%;
                 }
+                .research {
+                    visibility: hidden;
+                }
+                .container {
+                    width: 360px;
+                }
+                .title-page-img {
+                    visibility: hidden;
+                }
+                .ic-menu {
+                    visibility: visible;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 60px;
+                    color: #000;
+                    margin-top: 20px;
+                }
+                .menu-list {
+                    display: flex;
+                    font-weight: bold;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    background-color: #f8f4eb;
+                }
+                .menu-list-name {
+                    font-size: 15px;
+                    color: #000;
+                }
+                .main-title-information {
+                    display: grid;
+                    grid-template-areas: "menu-list user-access";
+                    grid-template-columns: 100% 100%;
+                }
+                .user-access {
+                    display: flex;
+                    align-items: center;
+                }
+                .user-account {
+                    margin-left: 0px;
+                }
+                .user-blog {
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 0px;
+                }
+                .title-page-btn {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .gallery {
+                    margin-right: 0px;
+                }
+                .comments {
+                    margin-left: 0px;
+                }
+                #biography {
+                    width: 360px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .biography-page {
+                    width: 360px;
+                    margin-left: 80px;
+                    margin-right: 80px;
+                }
+                .biography-page-img>img {
+                    width: 200px;
+                    height: 140px;
+                    background-image: none;
+                    border-radius: 10px;
+                }
+                .life-ages {
+                    color: #7e8dc6;
+                    font-size: 18px;
+                    display: flex;
+                    text-align: center;
+                    width: 200px;
+                }
+                .wise-quote {
+                    color: #000;
+                    text-align: center;
+                    font-size: 17px;
+                    font-weight: 600;
+                }
+            }
