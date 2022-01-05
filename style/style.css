@@ -1003,11 +1003,9 @@
             /*mobile version */
             
             @media screen and (max-width:480px) {
-                body {
-                    width: 480px;
-                }
+                body {}
                 header {
-                    width: 420px;
+                    width: 320px;
                     padding-right: 20px;
                     padding-left: 20px;
                     display: grid;
@@ -1021,7 +1019,7 @@
                     visibility: hidden;
                 }
                 .container {
-                    width: 480px;
+                    width: 360px;
                 }
                 .title-page-img {
                     visibility: hidden;
@@ -1061,7 +1059,7 @@
                 }
                 .user-account {
                     margin-left: 0px;
-                    width: 240px;
+                    width: 200px;
                     padding-top: 10px;
                     padding-bottom: 10px;
                 }
@@ -1081,12 +1079,12 @@
                     margin-left: 0px;
                 }
                 #biography {
-                    width: 480px;
+                    width: 360px;
                     display: flex;
                     flex-direction: column;
                 }
                 .biography-page {
-                    width: 480px;
+                    width: 360px;
                     margin-left: 80px;
                     margin-right: 80px;
                 }
