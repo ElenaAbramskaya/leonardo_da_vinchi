@@ -1002,26 +1002,26 @@
                 }
                 /*mobile version */
                 
-                @media screen and (max-width:400px) {
+                @media screen and (max-width:6in) {
                     body {
-                        width: 400px;
+                        width: 5.99in;
                     }
                     header {
-                        width: 360px;
-                        padding-right: 20px;
-                        padding-left: 20px;
+                        width: 5.99in;
+                        margin: 0 auto;
                         display: grid;
                         grid-template-areas: "title-name";
                         grid-template-columns: 100%;
                     }
                     .title-name {
-                        font-size: 17px;
+                        font-size: 20px;
+                        padding-left: 60px;
                     }
                     .research {
                         visibility: hidden;
                     }
                     .container {
-                        width: 400px;
+                        width: 5.99in;
                     }
                     .title-page-img {
                         visibility: hidden;
@@ -1032,28 +1032,31 @@
                         justify-content: center;
                         align-items: center;
                         color: #000;
-                        margin-top: 20px;
-                        margin-right: 20px;
+                        font-size: 20px;
+                        padding-top: 20px;
+                        font-weight: bold;
                     }
                     .menu-list {
                         display: flex;
                         background-color: #f8f4eb;
                         align-items: flex-start;
-                        margin-left: 20px;
                     }
                     .menu-list-name {
                         display: flex;
                         font-weight: bold;
-                        font-size: 17px;
+                        font-size: 20px;
                         color: #000;
                         padding-left: 0px;
                         padding-right: 0px;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
                     }
                     .main-title-information {
                         display: grid;
                         grid-template-areas: "menu-list user-access";
                         grid-template-columns: 100% 100%;
                         justify-items: center;
+                        padding-top: 0px;
                     }
                     .user-access {
                         display: flex;
