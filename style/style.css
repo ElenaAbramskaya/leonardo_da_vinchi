@@ -1002,12 +1002,12 @@
                 }
                 /*mobile version */
                 
-                @media screen and (max-width:6in) {
+                @media screen and (max-width:480px) {
                     body {
-                        width: 5.99in;
+                        width: 400px;
                     }
                     header {
-                        width: 5.99in;
+                        width: 400px;
                         margin: 0 auto;
                         display: grid;
                         grid-template-areas: "title-name";
@@ -1015,13 +1015,12 @@
                     }
                     .title-name {
                         font-size: 20px;
-                        padding-left: 60px;
                     }
                     .research {
                         visibility: hidden;
                     }
                     .container {
-                        width: 5.99in;
+                        width: 400px;
                     }
                     .title-page-img {
                         visibility: hidden;
@@ -1033,13 +1032,14 @@
                         align-items: center;
                         color: #000;
                         font-size: 20px;
-                        padding-top: 20px;
+                        padding-top: 40px;
                         font-weight: bold;
                     }
                     .menu-list {
                         display: flex;
                         background-color: #f8f4eb;
                         align-items: flex-start;
+                        height: 290px;
                     }
                     .menu-list-name {
                         display: flex;
