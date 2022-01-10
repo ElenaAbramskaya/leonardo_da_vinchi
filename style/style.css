@@ -1004,10 +1004,10 @@
                             
                             @media screen and (max-width:480px) {
                                 body {
-                                    width: 400px;
+                                    width: 390px;
                                 }
                                 header {
-                                    width: 400px;
+                                    width: 390px;
                                     margin: 0 auto;
                                     display: grid;
                                     grid-template-areas: "title-name";
@@ -1023,7 +1023,7 @@
                                     visibility: hidden;
                                 }
                                 .container {
-                                    width: 400px;
+                                    width: 390px;
                                 }
                                 .title-page-img {
                                     visibility: hidden;
@@ -1087,7 +1087,7 @@
                                     margin-left: 0px;
                                 }
                                 #biography {
-                                    width: 400px;
+                                    width: 390px;
                                     display: flex;
                                     flex-direction: column;
                                     align-items: center;
@@ -1129,7 +1129,7 @@
                                     width: 300px;
                                 }
                                 #history {
-                                    width: 400px;
+                                    width: 390px;
                                 }
                                 .picture {
                                     visibility: hidden;
@@ -1140,15 +1140,15 @@
                                     color: #876d89;
                                     font-weight: bold;
                                     line-height: 35px;
-                                    font-size: 14px;
+                                    font-size: 15px;
                                     text-align: left;
-                                    margin-left: 0px;
+                                    margin-left: 20px;
                                     padding-left: 0px;
                                 }
                                 .chronology-title {
                                     text-align: center;
                                     color: #7e8dc6;
-                                    font-size: 21px;
+                                    font-size: 22px;
                                     padding-top: 10px;
                                     font-weight: bold;
                                     width: 200px;
@@ -1156,12 +1156,13 @@
                                     margin-right: 100px;
                                 }
                                 .chronology-paintings li {
-                                    width: 280px;
+                                    width: 300px;
                                     margin-left: 30px;
+                                    font-size: 15px;
                                 }
                                 .chronology {
-                                    width: 400px;
-                                    margin-left: 45px;
+                                    width: 300px;
+                                    margin-left: 0;
                                 }
                                 .chronology-title-description {
                                     text-align: center;
@@ -1209,8 +1210,10 @@
                                     align-items: center;
                                 }
                                 .museum-title {
-                                    font-size: 20px;
+                                    font-size: 28px;
                                     font-weight: bold;
+                                    width: 300px;
+                                    margin-top: 30px;
                                 }
                                 .museum-description {
                                     font-weight: bold;
@@ -1221,24 +1224,41 @@
                                     display: flex;
                                     align-items: center;
                                     margin-left: 0;
-                                    width: 400px;
+                                    width: 390px;
                                 }
                                 .russian-museum {
                                     display: flex;
                                     align-items: center;
                                     margin-left: 0;
-                                    width: 400px;
+                                    width: 390px;
                                     margin-top: 30px;
                                 }
                                 #famous-pictures {
-                                    margin-left: 30px;
-                                    margin-right: 30px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    margin-left: 0px;
+                                    margin-right: 0px;
                                 }
                                 .four-pictures {
                                     display: flex;
                                     flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
                                     margin-left: 0;
                                     margin-right: 0;
+                                }
+                                .first-picture {
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 300px;
+                                    align-items: center;
+                                }
+                                .first-picture-title {
+                                    text-align: center;
+                                }
+                                .first-two-pictures {
+                                    width: 300px;
                                 }
                                 .first-picture-text {
                                     display: flex;
@@ -1247,6 +1267,13 @@
                                 .second-picture {
                                     display: flex;
                                     flex-direction: column;
+                                    align-items: center;
+                                }
+                                .second-picture-title {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
                                 }
                                 .second-picture-title p {
                                     color: #7e8dc6;
@@ -1256,6 +1283,7 @@
                                 }
                                 .text-description {
                                     margin-left: 0px;
+                                    width: 300px;
                                 }
                                 .third-picture {
                                     display: flex;
@@ -1279,5 +1307,80 @@
                                 .second-text-description {
                                     margin-left: 0;
                                     margin-right: 0;
+                                }
+                                .third-picture-title>img {
+                                    width: 300px;
+                                }
+                                .third-picture-title {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                                .four-picture {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
+                                }
+                                .four-picture-title {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
+                                }
+                                #comments {
+                                    margin-left: 0;
+                                    margin-right: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 390px;
+                                }
+                                .feedback-comments {
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                .author-feedback {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
+                                }
+                                .first-feedback {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
+                                    margin-right: 0;
+                                    margin-left: 0;
+                                }
+                                .first-feedback>img {
+                                    width: 250px;
+                                }
+                                .feedback-comments {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
+                                }
+                                .form {
+                                    width: 300px;
+                                }
+                                footer {
+                                    width: 390px;
+                                    font-size: 10px;
+                                    display: grid;
+                                    grid-template-areas: "footer-description  social-networks";
+                                    grid-template-columns: 45% 55%;
+                                }
+                                .footer-description {
+                                    padding-left: 15px;
+                                    font-size: 9px;
+                                }
+                                .copyright {
+                                    margin-right: 0;
+                                }
+                                .page-links img {
+                                    width: 30px;
                                 }
                             }
