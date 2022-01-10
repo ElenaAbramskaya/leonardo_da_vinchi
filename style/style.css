@@ -1418,7 +1418,31 @@
                                     width: 300px;
                                     align-items: center;
                                 }
+                                .form-title {
+                                    text-align: center;
+                                }
                                 .name-description {
                                     width: 250px;
+                                }
+                                .registration-form {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    width: 300px;
+                                }
+                                #name,
+                                #surname,
+                                #email,
+                                #password,
+                                #city,
+                                #country,
+                                #username {
+                                    width: 220px;
+                                    margin-right: 0px;
+                                }
+                                #education,
+                                .registration-text,
+                                #agree {
+                                    width: 220px;
                                 }
                             }
