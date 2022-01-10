@@ -1355,7 +1355,7 @@
                                     margin-left: 0;
                                 }
                                 .first-feedback>img {
-                                    width: 250px;
+                                    width: 280px;
                                 }
                                 .feedback-comments {
                                     display: flex;
@@ -1371,16 +1371,25 @@
                                     font-size: 10px;
                                     display: grid;
                                     grid-template-areas: "footer-description  social-networks";
-                                    grid-template-columns: 45% 55%;
+                                    grid-template-columns: 40% 60%;
+                                    text-align: center;
                                 }
                                 .footer-description {
                                     padding-left: 15px;
-                                    font-size: 9px;
+                                    font-size: 10px;
                                 }
                                 .copyright {
                                     margin-right: 0;
                                 }
                                 .page-links img {
                                     width: 30px;
+                                }
+                                .text-sign {
+                                    margin-left: 0;
+                                    font-size: 15px;
+                                }
+                                .text {
+                                    margin-left: 0;
+                                    margin-right: 0;
                                 }
                             }
