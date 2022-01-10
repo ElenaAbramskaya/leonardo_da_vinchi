@@ -1009,9 +1009,7 @@
                                 header {
                                     width: 390px;
                                     margin: 0 auto;
-                                    display: grid;
-                                    grid-template-areas: "title-name";
-                                    grid-template-columns: 100%;
+                                    display: flex;
                                 }
                                 .title-name {
                                     font-size: 20px;
@@ -1055,11 +1053,13 @@
                                     padding-bottom: 15px;
                                 }
                                 .main-title-information {
-                                    display: grid;
-                                    grid-template-areas: "menu-list user-access";
-                                    grid-template-columns: 100% 100%;
-                                    justify-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
                                     padding-top: 0px;
+                                }
+                                .title-page-img {
+                                    display: none;
                                 }
                                 .user-access {
                                     display: flex;
@@ -1369,9 +1369,7 @@
                                 footer {
                                     width: 390px;
                                     font-size: 10px;
-                                    display: grid;
-                                    grid-template-areas: "footer-description  social-networks";
-                                    grid-template-columns: 40% 60%;
+                                    display: flex;
                                     text-align: center;
                                 }
                                 .footer-description {
