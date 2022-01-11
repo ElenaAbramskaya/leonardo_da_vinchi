@@ -7,9 +7,8 @@
                                 background-color: #d5cdc0;
                                 width: 1445px;
                                 height: 70px;
-                                display: grid;
-                                grid-template-areas: "header header";
-                                grid-template-columns: 75% 25%;
+                                display: flex;
+                                justify-content: space-around;
                                 color: #fff;
                                 font-size: 22px;
                             }
@@ -20,6 +19,7 @@
                                 align-items: center;
                                 padding-left: 40px;
                                 font-weight: bold;
+                                width: 500px;
                             }
                             
                             .logo {
@@ -32,6 +32,7 @@
                                 display: flex;
                                 align-items: center;
                                 font-weight: bold;
+                                width: 200px;
                             }
                             
                             .research-box {
@@ -178,7 +179,7 @@
                                 background-color: #d6d0c2;
                                 font-size: 15px;
                                 border-radius: 7px;
-                                padding: 15px 20px;
+                                padding: 15px 18px;
                                 font-weight: bold;
                                 color: #7e8dc6;
                             }
@@ -200,7 +201,7 @@
                                 background-color: #d6d0c2;
                                 font-size: 15px;
                                 border-radius: 10px;
-                                padding: 15px 30px;
+                                padding: 15px 25px;
                                 font-weight: bold;
                                 color: #7e8dc6;
                             }
@@ -1034,26 +1035,28 @@
                             }
                             /*mobile version */
                             
-                            @media screen and (max-width:480px) {
+                            @media screen and (max-width:400px) {
                                 body {
-                                    width: 390px;
+                                    width: 400px;
                                 }
                                 header {
-                                    width: 390px;
+                                    width: 400px;
                                     margin: 0 auto;
                                     display: flex;
                                 }
                                 .title-name {
                                     font-size: 20px;
+                                    width: 300px;
+                                    padding-left: 0;
                                 }
                                 .logo {
                                     margin-right: 10px;
                                 }
                                 .research {
-                                    visibility: hidden;
+                                    display: none;
                                 }
                                 .container {
-                                    width: 390px;
+                                    width: 400px;
                                 }
                                 .title-page-img {
                                     visibility: hidden;
@@ -1099,7 +1102,7 @@
                                 }
                                 .user-account {
                                     margin-left: 0px;
-                                    width: 200px;
+                                    width: 220px;
                                     padding-top: 10px;
                                     padding-bottom: 10px;
                                 }
@@ -1110,72 +1113,107 @@
                                 }
                                 .title-page-btn {
                                     display: flex;
-                                    justify-content: space-around;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 110px;
+                                }
+                                .title-page {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
                                 }
                                 .gallery {
                                     margin-right: 0px;
+                                    margin-bottom: 15px;
                                 }
                                 .comments {
                                     margin-left: 0px;
+                                    margin-bottom: 15px;
+                                }
+                                .video {
+                                    margin-left: 0;
                                 }
                                 #biography {
-                                    width: 390px;
+                                    width: 400px;
                                     display: flex;
                                     flex-direction: column;
                                     align-items: center;
                                 }
                                 .biography-page {
-                                    width: 240px;
+                                    width: 400px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
                                     margin-left: 80px;
                                     margin-right: 80px;
                                 }
                                 .biography-page-img>img {
-                                    width: 240px;
-                                    height: 168px;
+                                    width: 280px;
+                                    height: 200px;
                                     border-radius: 10px;
                                 }
                                 .life-ages {
                                     color: #7e8dc6;
-                                    font-size: 18px;
+                                    font-size: 20px;
                                     display: flex;
                                     text-align: center;
                                     width: 100px;
-                                    margin-left: 70px;
                                 }
                                 .wise-quote {
                                     color: #000;
                                     text-align: center;
                                     font-size: 17px;
                                     font-weight: 600;
+                                    width: 250px;
+                                }
+                                .biography-information p {
+                                    width: 300px;
                                 }
                                 .biography-information {
                                     margin: 0 auto;
-                                    width: 300px;
-                                    font-size: 14px;
+                                    font-size: 15px;
                                     font-weight: bold;
                                     color: #7e8dc6;
+                                    width: 400px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
                                 }
                                 .links {
+                                    width: 400px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                                .links a {
                                     font-size: 12px;
-                                    text-align: center;
-                                    width: 300px;
+                                    text-align: left;
+                                    margin-left: 0;
+                                    padding-right: 40px;
                                 }
                                 #history {
-                                    width: 390px;
+                                    width: 400px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
                                 }
                                 .picture {
                                     display: none;
                                 }
                                 .chronology-paintings {
-                                    width: 300px;
+                                    width: 290px;
                                     margin-top: 40px;
                                     color: #876d89;
                                     font-weight: bold;
                                     line-height: 35px;
                                     font-size: 15px;
                                     text-align: left;
-                                    margin-left: 20px;
                                     padding-left: 0px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    margin-left: 0;
                                 }
                                 .chronology-title {
                                     text-align: center;
@@ -1188,7 +1226,7 @@
                                     margin-right: 100px;
                                 }
                                 .chronology-paintings li {
-                                    width: 300px;
+                                    width: 290px;
                                     margin-left: 30px;
                                     font-size: 15px;
                                 }
@@ -1242,7 +1280,7 @@
                                     align-items: center;
                                 }
                                 .museum-title {
-                                    font-size: 28px;
+                                    font-size: 23px;
                                     font-weight: bold;
                                     width: 300px;
                                     margin-top: 30px;
@@ -1271,6 +1309,10 @@
                                     align-items: center;
                                     margin-left: 0px;
                                     margin-right: 0px;
+                                }
+                                .famous-pictures-title {
+                                    font-size: 23px;
+                                    width: 300px;
                                 }
                                 .four-pictures {
                                     display: flex;
@@ -1360,6 +1402,9 @@
                                     align-items: center;
                                     width: 300px;
                                 }
+                                .gallery-title {
+                                    font-size: 23px;
+                                }
                                 #comments {
                                     margin-left: 0;
                                     margin-right: 0;
@@ -1399,7 +1444,7 @@
                                     width: 300px;
                                 }
                                 footer {
-                                    width: 390px;
+                                    width: 400px;
                                     font-size: 10px;
                                     display: flex;
                                     text-align: center;
