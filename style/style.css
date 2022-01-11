@@ -174,7 +174,7 @@
                             
                             .gallery {
                                 text-decoration: none;
-                                margin-right: 80px;
+                                margin-right: 60px;
                                 background-color: #d6d0c2;
                                 font-size: 15px;
                                 border-radius: 7px;
@@ -185,13 +185,47 @@
                             
                             .comments {
                                 text-decoration: none;
-                                margin-left: 80px;
+                                margin-left: 30px;
                                 background-color: #d6d0c2;
                                 font-size: 15px;
                                 border-radius: 10px;
                                 padding: 15px 20px;
                                 font-weight: bold;
                                 color: #7e8dc6;
+                            }
+                            
+                            .video {
+                                text-decoration: none;
+                                margin-left: 80px;
+                                background-color: #d6d0c2;
+                                font-size: 15px;
+                                border-radius: 10px;
+                                padding: 15px 30px;
+                                font-weight: bold;
+                                color: #7e8dc6;
+                            }
+                            
+                            #video {
+                                margin-top: 80px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            .video-record {
+                                width: 300px;
+                                height: 200px;
+                            }
+                            
+                            .video-title {
+                                font-size: 28px;
+                                width: 500px;
+                                color: #7e8dc6;
+                                text-align: center;
+                                font-weight: bold;
+                                margin-top: 20px;
+                                margin-bottom: 30px;
                             }
                             /* biography-page */
                             
@@ -712,9 +746,7 @@
                             }
                             
                             footer {
-                                display: grid;
-                                grid-template-areas: "footer-description  social-networks";
-                                grid-template-columns: 60% 40%;
+                                display: flex;
                                 background-color: #d5cdc0;
                                 height: 100px;
                                 color: #000;
@@ -726,7 +758,8 @@
                                 display: flex;
                                 justify-content: flex-start;
                                 align-items: center;
-                                padding-left: 40px;
+                                padding-left: 50px;
+                                width: 900px;
                             }
                             
                             .copyright {
@@ -737,7 +770,6 @@
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                margin-left: 20px;
                             }
                             
                             .page-links {
@@ -1132,7 +1164,7 @@
                                     width: 390px;
                                 }
                                 .picture {
-                                    visibility: hidden;
+                                    display: none;
                                 }
                                 .chronology-paintings {
                                     width: 300px;
@@ -1442,5 +1474,8 @@
                                 .registration-text,
                                 #agree {
                                     width: 220px;
+                                }
+                                .video-title {
+                                    font-size: 22px;
                                 }
                             }
