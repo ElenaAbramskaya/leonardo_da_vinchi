@@ -1312,6 +1312,7 @@
                                     align-items: center;
                                     margin-left: 0px;
                                     margin-right: 0px;
+                                    margin-top: 70px;
                                 }
                                 .famous-pictures-title {
                                     font-size: 23px;
@@ -1414,11 +1415,11 @@
                                     display: flex;
                                     flex-direction: column;
                                     align-items: center;
-                                    width: 420px;
                                 }
                                 .feedback-comments {
                                     display: flex;
                                     flex-direction: column;
+                                    align-items: center;
                                 }
                                 .author-feedback {
                                     display: flex;
@@ -1525,5 +1526,13 @@
                                 }
                                 .video-title {
                                     font-size: 22px;
+                                }
+                                .gallery-img {
+                                    margin-top: 30px;
+                                    margin-left: 0;
+                                    margin-right: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
                                 }
                             }
