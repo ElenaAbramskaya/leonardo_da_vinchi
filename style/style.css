@@ -1035,7 +1035,7 @@
                             }
                             /*mobile version */
                             
-                            @media screen and (max-width:400px) {
+                            @media screen and (max-width:420px) {
                                 body {
                                     width: 400px;
                                 }
@@ -1294,13 +1294,13 @@
                                     display: flex;
                                     align-items: center;
                                     margin-left: 0;
-                                    width: 390px;
+                                    width: 400px;
                                 }
                                 .russian-museum {
                                     display: flex;
                                     align-items: center;
                                     margin-left: 0;
-                                    width: 390px;
+                                    width: 400px;
                                     margin-top: 30px;
                                 }
                                 #famous-pictures {
