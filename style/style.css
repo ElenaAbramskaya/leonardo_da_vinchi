@@ -341,9 +341,8 @@
                             .link-title {
                                 display: flex;
                                 flex-direction: column;
-                                text-align: center;
+                                align-items: flex-end;
                                 margin-right: 110px;
-                                text-align: end;
                                 font-weight: bold;
                                 font-size: 16px;
                             }
@@ -1264,16 +1263,11 @@
                                     align-items: center;
                                     font-weight: bold;
                                     font-size: 14px;
-                                    margin-right: 30px;
-                                    margin-left: 30px;
-                                }
-                                .link-title>div {
+                                    margin-right: 0;
                                     width: 300px;
-                                    font-size: 14px;
-                                    display: flex;
-                                    align-items: center;
                                 }
                                 .link-title>a {
+                                    font-size: 14px;
                                     text-align: center;
                                 }
                                 .museum-exhibitions {
