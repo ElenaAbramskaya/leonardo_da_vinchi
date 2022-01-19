@@ -19,7 +19,7 @@
                                 align-items: center;
                                 padding-left: 40px;
                                 font-weight: bold;
-                                width: 500px;
+                                width: 700px;
                             }
                             
                             .logo {
@@ -1464,8 +1464,11 @@
                                     text-align: center;
                                 }
                                 .footer-description {
-                                    padding-left: 15px;
+                                    padding-left: 20px;
                                     font-size: 10px;
+                                }
+                                .social-networks {
+                                    margin-right: 20px;
                                 }
                                 .copyright {
                                     margin-right: 0;
