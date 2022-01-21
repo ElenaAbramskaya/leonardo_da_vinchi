@@ -1326,6 +1326,7 @@
                                     margin-right: 0;
                                     display: flex;
                                     align-items: center;
+                                    width: 480px;
                                 }
                                 .museum-title {
                                     font-size: 23px;
@@ -1358,6 +1359,7 @@
                                     margin-left: 0px;
                                     margin-right: 0px;
                                     margin-top: 70px;
+                                    width: 480px;
                                 }
                                 .famous-pictures-title {
                                     font-size: 23px;
