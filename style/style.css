@@ -1101,9 +1101,6 @@
                                 .container {
                                     width: 480px;
                                 }
-                                .title-page-img {
-                                    display: none;
-                                }
                                 .ic-menu {
                                     visibility: visible;
                                     display: flex;
@@ -1116,12 +1113,15 @@
                                 }
                                 .main-title-information {
                                     width: 480px;
+                                    display: flex;
+                                    flex-direction: column;
                                 }
                                 .menu-list {
                                     display: flex;
                                     background-color: #f8f4eb;
                                     align-items: flex-start;
                                     height: 290px;
+                                    flex-grow: 1;
                                 }
                                 .menu-list-name {
                                     display: flex;
@@ -1145,6 +1145,7 @@
                                 .user-access {
                                     display: flex;
                                     align-items: center;
+                                    flex-grow: 1;
                                 }
                                 .user-account {
                                     margin-left: 0px;
