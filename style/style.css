@@ -1460,11 +1460,13 @@
                                     display: flex;
                                     flex-direction: column;
                                     align-items: center;
+                                    width: 480px;
                                 }
                                 .feedback-comments {
                                     display: flex;
                                     flex-direction: column;
                                     align-items: center;
+                                    width: 480px;
                                 }
                                 .author-feedback {
                                     display: flex;
@@ -1492,13 +1494,8 @@
                                 #message-1 {
                                     display: flex;
                                     flex-direction: column;
-                                    margin-left: 20px;
-                                }
-                                .feedback-comments {
-                                    display: flex;
-                                    flex-direction: column;
                                     align-items: center;
-                                    width: 300px;
+                                    width: 480px;
                                 }
                                 .form {
                                     width: 300px;
