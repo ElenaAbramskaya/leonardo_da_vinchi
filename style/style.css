@@ -54,7 +54,9 @@
                             }
                             
                             .main-title-information {
-                                display: flex;
+                                display: grid;
+                                grid-template-areas: "menu-list title-page-img user-access";
+                                grid-template-columns: 25% 50% 25%;
                                 padding-top: 60px;
                             }
                             
@@ -64,11 +66,11 @@
                                 background-color: #dde7e9;
                                 margin-top: 10px;
                                 margin-left: 90px;
+                                margin-right: 20px;
                                 border-radius: 7px;
                                 display: flex;
                                 flex-direction: column;
                                 font-weight: bold;
-                                flex-grow: 0.1;
                             }
                             
                             .menu-list-name {
@@ -99,6 +101,7 @@
                                 color: #7e8dc6;
                                 background-color: #dde7e9;
                                 margin-top: 20px;
+                                margin-left: 60px;
                                 width: 200px;
                                 display: flex;
                                 flex-direction: column;
@@ -160,7 +163,8 @@
                                 justify-content: center;
                                 align-items: center;
                                 margin-top: 40px;
-                                width: 200px;
+                                width: 180px;
+                                margin-left: 60px;
                             }
                             
                             .user-blog a {
