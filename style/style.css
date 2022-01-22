@@ -614,14 +614,14 @@
                                     font-size: 15px;
                                 }
                                 
-                                .gallery-title {
+                                #gallery-title {
                                     color: #7e8dc6;
                                     font-size: 28px;
                                     font-weight: bold;
                                     text-align: center;
                                 }
                                 
-                                .gallery-img {
+                                #gallery-img {
                                     margin-top: 30px;
                                     margin-left: 90px;
                                     margin-right: 110px;
@@ -630,12 +630,12 @@
                                     justify-content: space-between;
                                 }
                                 
-                                .gallery-img img {
+                                #gallery-img img {
                                     margin-top: 15px;
                                     border-radius: 6px;
                                 }
                                 
-                                .gallery-img img:hover {
+                                #gallery-img img:hover {
                                     transform: scale(2);
                                     transition: all .5s ease;
                                 }
@@ -1481,8 +1481,16 @@
                                         flex-direction: column;
                                         align-items: center;
                                     }
-                                    .gallery-title {
+                                    #gallery-title {
                                         font-size: 23px;
+                                    }
+                                    #gallery-img {
+                                        margin-top: 30px;
+                                        margin-left: 0;
+                                        margin-right: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
                                     }
                                     #comments {
                                         margin-left: 0;
@@ -1616,13 +1624,5 @@
                                     }
                                     .video-title {
                                         font-size: 22px;
-                                    }
-                                    .gallery-img {
-                                        margin-top: 30px;
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
                                     }
                                 }
