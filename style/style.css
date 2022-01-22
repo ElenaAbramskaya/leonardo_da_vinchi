@@ -373,14 +373,13 @@
                                 }
                                 
                                 .museum-exhibitions img {
-                                    width: 518px;
+                                    width: 530px;
                                     height: 307px;
                                     border-radius: 10px;
                                 }
                                 
                                 .luvr {
                                     margin-top: 21px;
-                                    margin-left: 17px;
                                 }
                                 
                                 .ermitag {
@@ -390,7 +389,6 @@
                                 
                                 .museum-title {
                                     font-size: 28px;
-                                    width: 500px;
                                     text-align: center;
                                     font-weight: bold;
                                 }
@@ -398,11 +396,16 @@
                                 .museum-description {
                                     font-weight: bold;
                                     font-size: 16px;
+                                    width: 590px;
                                 }
                                 
                                 .franch-museum {
                                     display: flex;
                                     flex-direction: column;
+                                }
+                                
+                                .franch-museum img {
+                                    width: 580px;
                                 }
                                 
                                 .franch-museum>a {
@@ -638,16 +641,6 @@
                                 #gallery-img img:hover {
                                     transform: scale(2);
                                     transition: all .5s ease;
-                                }
-                                
-                                .topbutton {
-                                    border-radius: 7px;
-                                    padding: 15px 20px;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                    background-color: #d6d0c2;
-                                    text-decoration: none;
-                                    font-size: 15px;
                                 }
                                 /*product-page */
                                 
