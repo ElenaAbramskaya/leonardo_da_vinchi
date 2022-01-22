@@ -640,12 +640,6 @@
                                     transition: all .5s ease;
                                 }
                                 
-                                .gallery-btn {
-                                    display: flex;
-                                    justify-content: space-around;
-                                    margin-top: 30px;
-                                }
-                                
                                 .topbutton {
                                     border-radius: 7px;
                                     padding: 15px 20px;
@@ -1491,6 +1485,13 @@
                                         display: flex;
                                         flex-direction: column;
                                         align-items: center;
+                                    }
+                                    #painting-description {
+                                        display: flex;
+                                        margin-left: 0;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        width: 480px;
                                     }
                                     #comments {
                                         margin-left: 0;
