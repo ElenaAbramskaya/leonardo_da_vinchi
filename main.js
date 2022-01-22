@@ -23,7 +23,7 @@ function closePainting() {
     back.style.marginRight = "20px";
     back.addEventListener('click', function() {
         gallery.hidden = false;
-        paint.style.display = "none";
+
         paint.innerText = "";
 
     });
