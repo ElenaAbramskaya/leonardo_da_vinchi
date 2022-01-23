@@ -22,9 +22,12 @@ function closePainting() {
     back.style.marginBottom = "20px";
     back.style.marginRight = "20px";
     back.addEventListener('click', function() {
+
         gallery.hidden = false;
 
         paint.innerText = "";
+
+
 
     });
 };
@@ -39,16 +42,17 @@ img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-2.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
 
     let text = document.createElement('p');
     paint.appendChild(text);
 
     let description = document.createElement('p');
+
     paint.appendChild(description);
     text.innerText = "Богоматерь с младенцем";
 
-    description.innerHTML = "Эта картина относится к позднему периоду творчества Леонардо. Ее дом сейчас находится в большой галерее Лувра. Да Винчи использовал непопулярный в то время сюжет для Италии под названием «Анна-трио». Святая Мария, сидящая на коленях у матери, держит на руках Младенца Иисуса. Леонардо сделал множество зарисовок к этой истории, но так и не завершил работу. Саму картину мастер писал приблизительно десять лет, но многие детали в ней так и остались незавершенными."
+    description.innerText = "Эта картина относится к позднему периоду творчества Леонардо. Ее дом сейчас находится в большой галерее Лувра. Да Винчи использовал непопулярный в то время сюжет для Италии под названием «Анна-трио». Святая Мария, сидящая на коленях у матери, держит на руках Младенца Иисуса. Леонардо сделал множество зарисовок к этой истории, но так и не завершил работу. Саму картину мастер писал приблизительно десять лет, но многие детали в ней так и остались незавершенными."
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -63,12 +67,14 @@ img.addEventListener('click', function() {
     description.style.color = "#7e8dc6";
 
 
+
 });
 second_img.addEventListener('click', function() {
     gallery.hidden = true;
     closePainting();
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-3.jpg";
+    img1.style.borderRadius = "7px";
     paint.appendChild(img1);
 
     paint.style.display = "flex";
@@ -95,7 +101,7 @@ third_img.addEventListener('click', function() {
     closePainting();
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-8.jpg";
-
+    img1.style.borderRadius = "7px";
     paint.appendChild(img1);
 
     paint.style.display = "flex";
@@ -118,11 +124,12 @@ third_img.addEventListener('click', function() {
 });
 fourth_img.addEventListener('click', function() {
     gallery.hidden = true;
+
     closePainting();
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-5.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -141,6 +148,7 @@ fourth_img.addEventListener('click', function() {
     description.style.width = "400px";
     description.style.color = "#7e8dc6";
     description.style.fontWeight = "bold";
+
 });
 fifth_img.addEventListener('click', function() {
     gallery.hidden = true;
@@ -148,7 +156,7 @@ fifth_img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-6.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -173,7 +181,7 @@ sixth_img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-7.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -199,7 +207,7 @@ seventh_img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-1.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -224,7 +232,7 @@ eigth_img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-4.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -249,7 +257,7 @@ ninth_img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-9.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -274,7 +282,7 @@ tenth_img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-10.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
@@ -299,7 +307,7 @@ eleventh_img.addEventListener('click', function() {
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-12.jpg";
     paint.appendChild(img1);
-
+    img1.style.borderRadius = "7px";
     paint.style.display = "flex";
     paint.style.flexDirection = "column";
     paint.style.alignItems = "center";
