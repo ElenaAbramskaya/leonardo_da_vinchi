@@ -1,1610 +1,1662 @@
-                                body {
-                                    font-family: 'Montserrat', sans-serif;
-                                    width: 1445px;
-                                }
-                                
-                                header {
-                                    background-color: #d5cdc0;
-                                    width: 1445px;
-                                    height: 70px;
-                                    display: flex;
-                                    justify-content: space-around;
-                                    color: #fff;
-                                    font-size: 22px;
-                                }
-                                /* title-page */
-                                
-                                .title-name {
-                                    display: flex;
-                                    align-items: center;
-                                    padding-left: 40px;
-                                    font-weight: bold;
-                                    width: 700px;
-                                }
-                                
-                                .logo {
-                                    width: 80px;
-                                    height: 65px;
-                                    margin-right: 30px;
-                                }
-                                
-                                .research {
-                                    display: flex;
-                                    align-items: center;
-                                    font-weight: bold;
-                                    width: 200px;
-                                }
-                                
-                                .research-box {
-                                    border: 1px #000 solid;
-                                    border-radius: 5px;
-                                    width: 100px;
-                                    height: 20px;
-                                    margin-left: 15px;
-                                }
-                                
-                                .container {
-                                    width: 1445px;
-                                    background-color: #f8f4eb;
-                                    padding-bottom: 50px;
-                                }
-                                
-                                .ic-menu {
-                                    visibility: hidden;
-                                }
-                                
-                                .main-title-information {
-                                    display: flex;
-                                    padding-top: 60px;
-                                }
-                                
-                                .menu-list {
-                                    width: 200px;
-                                    height: 380px;
-                                    background-color: #dde7e9;
-                                    margin-top: 10px;
-                                    margin-left: 90px;
-                                    margin-right: 20px;
-                                    border-radius: 7px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    font-weight: bold;
-                                }
-                                
-                                .menu-list-name {
-                                    text-decoration: none;
-                                    padding: 25px 20px;
-                                    color: #7e8dc6;
-                                    font-size: 18px;
-                                }
-                                
-                                .title-page-img {
-                                    display: flex;
-                                    justify-content: center;
-                                    flex-grow: 1;
-                                }
-                                
-                                .title-page-img>img {
-                                    height: 405px;
-                                    border-radius: 7px;
-                                }
-                                
-                                .user-access {
-                                    display: flex;
-                                    flex-direction: column;
-                                    flex-grow: 1;
-                                }
-                                
-                                .user-account {
-                                    color: #7e8dc6;
-                                    background-color: #dde7e9;
-                                    margin-top: 10px;
-                                    margin-left: 20px;
-                                    width: 200px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    align-items: center;
-                                    border-radius: 7px;
-                                    font-weight: bold;
-                                    padding-top: 10px;
-                                    padding-bottom: 15px;
-                                }
-                                
-                                .user-account-name {
-                                    font-size: 18px;
-                                    margin-top: 15px;
-                                }
-                                
-                                .user-account-enter {
-                                    font-size: 15px;
-                                    display: flex;
-                                    flex-direction: column;
-                                }
-                                
-                                .btn-input {
-                                    width: 120px;
-                                    border-radius: 5px;
-                                }
-                                
-                                .user-enter {
-                                    background-color: #d6d0c2;
-                                    width: 110px;
-                                    padding: 8px;
-                                    margin-top: 15px;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    border-radius: 10px;
-                                    font-size: 18px;
-                                }
-                                
-                                .user-registration {
-                                    background-color: #d6d0c2;
-                                    width: 110px;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    border-radius: 10px;
-                                    padding: 8px;
-                                    margin-top: 15px;
-                                    margin-bottom: 15px;
-                                }
-                                
-                                .enter-btn {
-                                    text-decoration: none;
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                }
-                                
-                                .user-blog {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    align-items: center;
-                                    margin-top: 40px;
-                                    width: 180px;
-                                    margin-left: 30px;
-                                }
-                                
-                                .user-blog a {
-                                    text-decoration: none;
-                                    color: #876d89;
-                                    font-weight: bold;
-                                    font-size: 15px;
-                                }
-                                
-                                .title-page-btn {
-                                    margin-top: 50px;
-                                    display: flex;
-                                    justify-content: center;
-                                }
-                                
-                                .gallery {
-                                    text-decoration: none;
-                                    margin-right: 60px;
-                                    background-color: #d6d0c2;
-                                    font-size: 15px;
-                                    border-radius: 7px;
-                                    padding: 15px 18px;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                }
-                                
-                                .comments {
-                                    text-decoration: none;
-                                    margin-left: 30px;
-                                    background-color: #d6d0c2;
-                                    font-size: 15px;
-                                    border-radius: 10px;
-                                    padding: 15px 20px;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                }
-                                
-                                .video {
-                                    text-decoration: none;
-                                    margin-left: 80px;
-                                    background-color: #d6d0c2;
-                                    font-size: 15px;
-                                    border-radius: 10px;
-                                    padding: 15px 25px;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                }
-                                
-                                #video {
-                                    margin-top: 80px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                }
-                                
-                                .our-video {
-                                    display: flex;
-                                    justify-content: space-around;
-                                    width: 700px;
-                                    margin-top: 30px;
-                                }
-                                
-                                .video-record {
-                                    width: 300px;
-                                    height: 200px;
-                                }
-                                
-                                .video-title {
-                                    font-size: 28px;
-                                    width: 500px;
-                                    color: #7e8dc6;
-                                    text-align: center;
-                                    font-weight: bold;
-                                    margin-top: 20px;
-                                    margin-bottom: 30px;
-                                }
-                                /* biography-page */
-                                
-                                #biography {
-                                    width: 1445px;
-                                    background-color: #f8f4eb;
-                                    padding-top: 80px;
-                                    display: flex;
-                                    margin-top: 50px;
-                                    margin-bottom: 50px;
-                                }
-                                
-                                .biography-page {
-                                    width: 500px;
-                                    margin-left: 90px;
-                                    display: flex;
-                                    justify-content: center;
-                                    flex-direction: column;
-                                }
-                                
-                                .biography-page-img>img {
-                                    width: 500px;
-                                    height: 350px;
-                                    background-image: none;
-                                    border-radius: 10px;
-                                }
-                                
-                                .life-ages {
-                                    color: #7e8dc6;
-                                    width: 500px;
-                                    text-align: center;
-                                    margin-top: 21.44px;
-                                    margin-bottom: 21.44px;
-                                    font-size: 2em;
-                                    font-weight: bold;
-                                }
-                                
-                                .wise-quote {
-                                    color: #000;
-                                    text-align: center;
-                                    font-size: 17px;
-                                    font-weight: 600;
-                                }
-                                
-                                .biography-information {
-                                    margin-left: 40px;
-                                    width: 700px;
-                                    font-size: 17px;
-                                    line-height: 35px;
-                                    text-indent: 40px;
-                                    text-align: justify;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                }
-                                
-                                .links {
-                                    display: flex;
-                                    flex-direction: column;
-                                }
-                                
-                                .links a {
-                                    color: #551A8B;
-                                    font-weight: bold;
-                                    font-size: 15px;
-                                }
-                                /* chtonology-page */
-                                
-                                .chronology-title {
-                                    text-align: center;
-                                    color: #7e8dc6;
-                                    font-size: 28px;
-                                    padding-top: 50px;
-                                    font-weight: bold;
-                                }
-                                
-                                .chronology {
-                                    display: flex;
-                                    margin-left: 90px;
-                                }
-                                
-                                .chronology-title-description {
-                                    text-align: center;
-                                    color: #876d89;
-                                    font-size: 19px;
-                                }
-                                
-                                .chronology-paintings {
-                                    margin-top: 40px;
-                                    color: #876d89;
-                                    font-weight: bold;
-                                    line-height: 35px;
-                                    font-size: 15px;
-                                    text-align: justify;
-                                    margin-left: 10px;
-                                    padding-left: 10px;
-                                }
-                                
-                                .picture {
-                                    margin-left: 80px;
-                                    border-radius: 10px;
-                                    width: 330px;
-                                    height: 478px;
-                                    margin-top: 58px;
-                                }
-                                
-                                .link-title {
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: flex-end;
-                                    margin-right: 110px;
-                                    font-weight: bold;
-                                    font-size: 16px;
-                                }
-                                
-                                .link-title a {
-                                    color: #551A8B;
-                                    font-weight: bold;
-                                    font-size: 15px;
-                                }
-                                /*museum-exhibitions-page */
-                                
-                                #museums {
-                                    margin-top: 130px;
-                                    margin-left: 90px;
-                                    margin-right: 110px;
-                                }
-                                
-                                .museum-exhibitions {
-                                    display: flex;
-                                    color: #7e8dc6;
-                                }
-                                
-                                .museum-exhibitions img {
-                                    width: 530px;
-                                    height: 307px;
-                                    border-radius: 10px;
-                                }
-                                
-                                .luvr {
-                                    margin-top: 21px;
-                                }
-                                
-                                .ermitag {
-                                    margin-left: 17px;
-                                    margin-top: 21px;
-                                }
-                                
-                                .museum-title {
-                                    font-size: 28px;
-                                    text-align: center;
-                                    font-weight: bold;
-                                }
-                                
-                                .museum-description {
-                                    font-weight: bold;
-                                    font-size: 16px;
-                                    width: 590px;
-                                }
-                                
-                                .franch-museum {
-                                    display: flex;
-                                    flex-direction: column;
-                                }
-                                
-                                .franch-museum img {
-                                    width: 580px;
-                                }
-                                
-                                .franch-museum>a {
-                                    margin-top: 10px;
-                                    margin-left: 20px;
-                                    font-weight: bold;
-                                    color: #551A8B;
-                                    font-size: 15px;
-                                }
-                                
-                                .russian-museum {
-                                    display: flex;
-                                    flex-direction: column;
-                                    margin-left: 50px;
-                                }
-                                
-                                .russian-museum>a {
-                                    margin-top: 10px;
-                                    margin-left: 20px;
-                                    color: #551A8B;
-                                    font-weight: bold;
-                                    font-size: 15px;
-                                }
-                                /*famous-pictures page*/
-                                
-                                #famous-pictures {
-                                    margin-top: 120px;
-                                    margin-left: 90px;
-                                    margin-right: 110px;
-                                }
-                                
-                                .four-pictures {
-                                    display: flex;
-                                    margin-top: 50px;
-                                }
-                                
-                                .four-pictures img {
-                                    border-radius: 5px;
-                                }
-                                
-                                .famous-pictures-title {
-                                    text-align: center;
-                                    color: #7e8dc6;
-                                    font-size: 28px;
-                                    font-weight: bold;
-                                }
-                                
-                                .first-two-pictures {
-                                    width: 622.5px;
-                                }
-                                
-                                .second-two-picture {
-                                    width: 622.5px;
-                                }
-                                
-                                .first-picture {
-                                    display: flex;
-                                    flex-direction: column;
-                                }
-                                
-                                .first-picture-title {
-                                    color: #876d89;
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                }
-                                
-                                .first-picture-text {
-                                    display: flex;
-                                }
-                                
-                                .first-picture-text2 {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    line-height: 20px;
-                                    font-weight: bold;
-                                    margin-right: 10px;
-                                }
-                                
-                                .first-picture-description p {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    line-height: 21px;
-                                    font-weight: bold;
-                                    margin-right: 10px;
-                                }
-                                
-                                .first-picture-description img {
-                                    width: 182px;
-                                }
-                                
-                                .second-picture {
-                                    display: flex;
-                                }
-                                
-                                .second-picture-title {
-                                    color: #876d89;
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                }
-                                
-                                .second-picture-title img {
-                                    margin-top: 20px;
-                                }
-                                
-                                .second-picture-title p {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                    margin-top: 27px;
-                                }
-                                
-                                .text-description {
-                                    margin-top: 25px;
-                                    margin-left: 20px;
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    line-height: 21px;
-                                    font-weight: bold;
-                                }
-                                
-                                .second-two-picture {
-                                    margin-left: 35px;
-                                }
-                                
-                                .third-picture {
-                                    display: flex;
-                                }
-                                
-                                .third-picture-title img {
-                                    margin-top: 20px;
-                                }
-                                
-                                .third-picture-title {
-                                    color: #876d89;
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                }
-                                
-                                .third-picture-title p {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                    line-height: 20px;
-                                    width: 390px;
-                                }
-                                
-                                .second-text-description {
-                                    margin-top: 20px;
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                    line-height: 21px;
-                                    margin-left: 7px;
-                                }
-                                
-                                .four-picture {
-                                    display: flex;
-                                }
-                                
-                                .four-picture-title {
-                                    color: #876d89;
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                }
-                                
-                                .four-picture-title p {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                    line-height: 20px;
-                                    margin-right: 10px;
-                                }
-                                
-                                .four-text-description {
-                                    margin-left: 10px;
-                                }
-                                
-                                .fourth-picture+p {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                    line-height: 20px;
-                                }
-                                
-                                .four-picture-description {
-                                    margin-right: 8px;
-                                    display: flex;
-                                }
-                                
-                                .four-picture-text {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                    line-height: 20px;
-                                }
-                                /* gallery-page */
-                                
-                                #gallery {
-                                    margin-top: 90px;
-                                }
-                                
-                                #gallery-image img {
-                                    width: 30%;
-                                    height: 30%;
-                                }
-                                
-                                .img-title {
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                }
-                                
-                                #gallery-title {
-                                    color: #7e8dc6;
-                                    font-size: 28px;
-                                    font-weight: bold;
-                                    text-align: center;
-                                }
-                                
-                                #gallery-img {
-                                    margin-top: 30px;
-                                    margin-left: 90px;
-                                    margin-right: 110px;
-                                    display: flex;
-                                    flex-wrap: wrap;
-                                    justify-content: space-between;
-                                }
-                                
-                                #gallery-img img {
-                                    margin-top: 15px;
-                                    border-radius: 6px;
-                                }
-                                
-                                #gallery-img img:hover {
-                                    transform: scale(2);
-                                    transition: all .5s ease;
-                                }
-                                /*feedback-page */
-                                
-                                #comments {
-                                    margin-top: 80px;
-                                    margin-left: 90px;
-                                    margin-right: 110px;
-                                }
-                                
-                                .feedback-comments {
-                                    display: flex;
-                                    margin-top: 30px;
-                                    justify-content: space-between;
-                                }
-                                
-                                .feedback-title {
-                                    color: #7e8dc6;
-                                    font-size: 28px;
-                                    font-weight: bold;
-                                    text-align: center;
-                                }
-                                
-                                .first-feedback {
-                                    display: flex;
-                                    margin-top: 45px;
-                                    margin-bottom: 20px;
-                                    width: 700px;
-                                }
-                                
-                                .our-feedback {
-                                    display: flex;
-                                    flex-direction: column;
-                                }
-                                
-                                .first-feedback img {
-                                    border-radius: 10px;
-                                    width: 220px;
-                                }
-                                
-                                #message-1 {
-                                    margin-top: 30px;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                    display: flex;
-                                    flex-direction: column;
-                                    width: 700px;
-                                }
-                                
-                                #author {
-                                    margin-bottom: 15px;
-                                }
-                                
-                                #author {
-                                    color: #551A8B;
-                                }
-                                
-                                .author-feedback {
-                                    margin-top: 15px;
-                                    margin-left: 20px;
-                                }
-                                
-                                .text {
-                                    color: #7e8dc6;
-                                    font-size: 16px;
-                                    font-weight: bold;
-                                    margin-left: 20px;
-                                    margin-right: 30px;
-                                    line-height: 30px;
-                                    margin-top: 10px;
-                                }
-                                
-                                .text-sign {
-                                    color: #876d89;
-                                    font-size: 16px;
-                                    font-weight: bold;
-                                    margin-left: 20px;
-                                }
-                                
-                                #form {
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    width: 420px;
-                                    background-color: #dde7e9;
-                                    align-items: center;
-                                    border-radius: 7px;
-                                    padding-top: 30px;
-                                    padding-bottom: 30px;
-                                    color: #7e8dc6;
-                                    font-weight: bold;
-                                    margin-top: 50px;
-                                    height: 500px;
-                                }
-                                
-                                .form-title {
-                                    color: #7e8dc6;
-                                    font-size: 21px;
-                                    font-weight: bold;
-                                }
-                                
-                                .autor-name,
-                                #text {
-                                    border-radius: 5px;
-                                    width: 200px;
-                                }
-                                
-                                input {
-                                    border-radius: 5px;
-                                    width: 200px;
-                                }
-                                
-                                .name-label {
-                                    font-size: 17px;
-                                }
-                                
-                                #form-btn {
-                                    width: 90px;
-                                    height: 40px;
-                                    margin-top: 20px;
-                                    color: #7e8dc6;
-                                    font-size: 15px;
-                                    background-color: #d6d0c2;
-                                    font-weight: bold;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    text-decoration: none;
-                                    padding: 5px 10px;
-                                    border-radius: 7px;
-                                }
-                                
-                                footer {
-                                    display: flex;
-                                    background-color: #d5cdc0;
-                                    height: 100px;
-                                    color: #000;
-                                    font-weight: bold;
-                                    width: 1445px;
-                                }
-                                
-                                .footer-description {
-                                    display: flex;
-                                    justify-content: flex-start;
-                                    align-items: center;
-                                    padding-left: 50px;
-                                    width: 900px;
-                                }
-                                
-                                .copyright {
-                                    margin-right: 15px;
-                                }
-                                
-                                .social-networks {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                }
-                                
-                                .page-links {
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    margin-right: 10px;
-                                }
-                                
-                                .page-links-title {
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    margin-right: 10px;
-                                }
-                                
-                                .page-links img {
-                                    display: flex;
-                                    align-items: center;
-                                }
-                                /*registration-page */
-                                
-                                .registration {
-                                    display: flex;
-                                    justify-content: center;
-                                }
-                                
-                                .form-title {
-                                    font-size: 22px;
-                                    font-weight: bold;
-                                    margin-bottom: 20px;
-                                }
-                                
-                                .registration-form {
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    width: 700px;
-                                    background-color: #dde7e9;
-                                    border-radius: 7px;
-                                    padding-top: 30px;
-                                    padding-bottom: 30px;
-                                    color: #7e8dc6;
-                                    font-weight: bold;
-                                    margin-top: 50px;
-                                    font-size: 18px;
-                                }
-                                
-                                #agree {
-                                    width: 200px;
-                                    font-size: 14px;
-                                }
-                                
-                                .form-btn2 {
-                                    width: 140px;
-                                    height: 40px;
-                                    margin-top: 20px;
-                                    color: #7e8dc6;
-                                    font-size: 14px;
-                                    background-color: #d6d0c2;
-                                    font-weight: bold;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    text-decoration: none;
-                                    padding: 5px 10px;
-                                    border-radius: 7px;
-                                    font-weight: bold;
-                                }
-                                
-                                #name,
-                                #surname,
-                                #email,
-                                #password,
-                                #city,
-                                #country,
-                                #username {
-                                    width: 250px;
-                                    margin-right: 50px;
-                                }
-                                
-                                .registration-text,
-                                #agree,
-                                #education {
-                                    width: 300px;
-                                }
-                                /* user account page*/
-                                
-                                .page-header {
-                                    display: grid;
-                                    grid-template-areas: "page-title user-topbutton";
-                                    grid-template-columns: 80% 20%;
-                                }
-                                
-                                .page-title {
-                                    text-align: center;
-                                    color: #876d89;
-                                    font-size: 25px;
-                                    font-weight: bold;
-                                    padding-top: 40px;
-                                }
-                                
-                                .user-topbutton {
-                                    border-radius: 7px;
-                                    padding: 15px 20px;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                    background-color: #d6d0c2;
-                                    text-decoration: none;
-                                    font-size: 16px;
-                                    width: 100px;
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                    margin-top: 20px;
-                                    margin-left: 70px;
-                                }
-                                
-                                .user-account-part {
-                                    display: grid;
-                                    grid-template-areas: "personal-account navigation-btn";
-                                    grid-template-columns: 70% 30%;
-                                    margin-top: 50px;
-                                }
-                                
-                                .navigation-btn {
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    margin-top: 40px;
-                                }
-                                
-                                .navigation-btn a {
-                                    margin-top: 20px;
-                                    color: #876d89;
-                                    font-weight: bold;
-                                    font-size: 18px;
-                                }
-                                
-                                .user-chat {
-                                    display: flex;
-                                    justify-content: space-around;
-                                    width: 217px;
-                                    margin-top: 40px;
-                                }
-                                
-                                .our-friends {
-                                    margin-top: 70px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    width: 217px;
-                                    background-color: #dde7e9;
-                                    border-radius: 7px;
-                                    padding-bottom: 20px;
-                                }
-                                
-                                .our-friends-title {
-                                    text-align: center;
-                                    color: #7e8dc6;
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                    padding-top: 20px;
-                                }
-                                
-                                .our-friends a {
-                                    font-size: 14px;
-                                }
-                                
-                                .personal-account {
-                                    background-color: #dde7e9;
-                                    padding-top: 60px;
-                                    margin-left: 60px;
-                                    padding-bottom: 60px;
-                                    border-radius: 7px;
-                                }
-                                
-                                .personal-account-title {
-                                    text-align: center;
-                                    color: #7e8dc6;
-                                    font-size: 20px;
-                                    font-weight: bold;
-                                }
-                                
-                                .personality {
-                                    display: grid;
-                                    grid-template-areas: "personality-face personality-description";
-                                    grid-template-columns: 40% 60%;
-                                    margin-top: 30px;
-                                }
-                                
-                                .personality img {
-                                    width: 200px;
-                                    height: 200px;
-                                    margin-bottom: 20px;
-                                    margin-top: 10px;
-                                }
-                                
-                                .personality a {
-                                    margin-top: 10px;
-                                    text-decoration: none;
-                                    font-weight: bold;
-                                    color: #4f699a;
-                                }
-                                
-                                .personality-face {
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    margin-bottom: 40px;
-                                }
-                                
-                                .personality-description {
-                                    margin-bottom: 40px;
-                                }
-                                
-                                .personality-description div {
-                                    margin-top: 10px;
-                                    font-size: 15px;
-                                    font-weight: bold;
-                                }
-                                
-                                .name-description {
-                                    display: grid;
-                                    grid-template-areas: "name-title name-example";
-                                    grid-template-columns: 40% 60%;
-                                }
-                                
-                                .name-example {
-                                    margin-left: 20px;
-                                    color: #7e8dc6;
-                                }
-                                
-                                .name-title {
-                                    color: #876d89;
-                                }
-                                
-                                .btn-correct {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                }
-                                
-                                .add-topic {
-                                    border-radius: 7px;
-                                    padding: 15px 20px;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                    background-color: #d6d0c2;
-                                    text-decoration: none;
-                                    font-size: 16px;
-                                }
-                                
-                                .edit {
-                                    border-radius: 7px;
-                                    padding: 15px 20px;
-                                    font-weight: bold;
-                                    color: #7e8dc6;
-                                    background-color: #d6d0c2;
-                                    text-decoration: none;
-                                    font-size: 16px;
-                                }
-                                /*mobile version */
-                                
-                                @media screen and (max-width:480px) {
-                                    body {
-                                        width: 480px;
-                                    }
-                                    header {
-                                        width: 480px;
-                                        margin: 0 auto;
-                                        display: flex;
-                                    }
-                                    .title-name {
-                                        font-size: 20px;
-                                        width: 300px;
-                                        padding-left: 0;
-                                    }
-                                    .logo {
-                                        margin-right: 10px;
-                                    }
-                                    .research {
-                                        display: none;
-                                    }
-                                    .container {
-                                        width: 480px;
-                                    }
-                                    .ic-menu {
-                                        visibility: visible;
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        color: #7e8dc6;
-                                        font-size: 20px;
-                                        padding-top: 40px;
-                                        font-weight: bold;
-                                    }
-                                    .main-title-information {
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                    }
-                                    .menu-list {
-                                        display: flex;
-                                        background-color: #f8f4eb;
-                                        align-items: flex-start;
-                                        height: 290px;
-                                        flex-grow: 1;
-                                    }
-                                    .menu-list-name {
-                                        display: flex;
-                                        font-weight: bold;
-                                        font-size: 20px;
-                                        color: #7e8dc6;
-                                        padding-left: 0px;
-                                        padding-right: 0px;
-                                        padding-top: 15px;
-                                        padding-bottom: 15px;
-                                    }
-                                    .main-title-information {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        padding-top: 0px;
-                                    }
-                                    .title-page-img {
-                                        display: none;
-                                    }
-                                    .user-access {
-                                        display: flex;
-                                        align-items: center;
-                                        flex-grow: 1;
-                                    }
-                                    .user-account {
-                                        margin-left: 0px;
-                                        width: 220px;
-                                        padding-top: 10px;
-                                        padding-bottom: 10px;
-                                    }
-                                    .user-blog {
-                                        display: flex;
-                                        justify-content: center;
-                                        margin-left: 0px;
-                                    }
-                                    .title-page-btn {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        justify-content: center;
-                                        width: 110px;
-                                    }
-                                    .title-page {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .gallery {
-                                        margin-right: 0px;
-                                        margin-bottom: 15px;
-                                    }
-                                    .comments {
-                                        margin-left: 0px;
-                                        margin-bottom: 15px;
-                                    }
-                                    .video {
-                                        margin-left: 0;
-                                    }
-                                    #biography {
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .biography-page {
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        margin-left: 80px;
-                                        margin-right: 80px;
-                                    }
-                                    .biography-page-img>img {
-                                        width: 280px;
-                                        height: 200px;
-                                        border-radius: 10px;
-                                    }
-                                    .life-ages {
-                                        color: #7e8dc6;
-                                        font-size: 20px;
-                                        display: flex;
-                                        text-align: center;
-                                        width: 100px;
-                                    }
-                                    .wise-quote {
-                                        color: #000;
-                                        text-align: center;
-                                        font-size: 17px;
-                                        font-weight: 600;
-                                        width: 250px;
-                                    }
-                                    .biography-information p {
-                                        width: 300px;
-                                    }
-                                    .biography-information {
-                                        margin: 0 auto;
-                                        font-size: 15px;
-                                        font-weight: bold;
-                                        color: #7e8dc6;
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .links {
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .links a {
-                                        font-size: 12px;
-                                        text-align: left;
-                                        margin-left: 0;
-                                        padding-right: 40px;
-                                    }
-                                    #video {
-                                        width: 480px;
-                                    }
-                                    .video-record {
-                                        margin-top: 30px;
-                                    }
-                                    .our-video {
-                                        display: flex;
-                                        flex-direction: column;
-                                        width: 300px;
-                                        align-items: center;
-                                        margin-top: 10px;
-                                    }
-                                    #history {
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .picture {
-                                        display: none;
-                                    }
-                                    .chronology-paintings {
-                                        width: 290px;
-                                        margin-top: 40px;
-                                        color: #876d89;
-                                        font-weight: bold;
-                                        line-height: 35px;
-                                        font-size: 15px;
-                                        text-align: left;
-                                        padding-left: 0px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        margin-left: 0;
-                                    }
-                                    .chronology-title {
-                                        text-align: center;
-                                        color: #7e8dc6;
-                                        font-size: 22px;
-                                        padding-top: 10px;
-                                        font-weight: bold;
-                                        width: 200px;
-                                        margin-left: 100px;
-                                        margin-right: 100px;
-                                    }
-                                    .chronology-paintings li {
-                                        width: 290px;
-                                        margin-left: 30px;
-                                        font-size: 15px;
-                                    }
-                                    .chronology {
-                                        width: 300px;
-                                        margin-left: 0;
-                                    }
-                                    .chronology-title-description {
-                                        text-align: center;
-                                        color: #876d89;
-                                        font-size: 16px;
-                                    }
-                                    .link-title {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        font-weight: bold;
-                                        font-size: 14px;
-                                        margin-right: 0;
-                                        width: 300px;
-                                    }
-                                    .link-title>a {
-                                        font-size: 14px;
-                                        text-align: center;
-                                    }
-                                    .museum-exhibitions {
-                                        display: flex;
-                                        flex-direction: column;
-                                        color: #7e8dc6;
-                                    }
-                                    .museum-exhibitions img {
-                                        width: 300px;
-                                        height: 147px;
-                                        border-radius: 10px;
-                                    }
-                                    .luvr,
-                                    .ermitag {
-                                        margin-top: 0px;
-                                        margin-left: 0px;
-                                    }
-                                    #museums {
-                                        margin-top: 30px;
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                        display: flex;
-                                        align-items: center;
-                                        width: 480px;
-                                    }
-                                    .museum-title {
-                                        font-size: 23px;
-                                        font-weight: bold;
-                                        width: 300px;
-                                        margin-top: 30px;
-                                    }
-                                    .museum-description {
-                                        font-weight: bold;
-                                        font-size: 16px;
-                                        width: 300px;
-                                    }
-                                    .franch-museum {
-                                        display: flex;
-                                        align-items: center;
-                                        margin-left: 0;
-                                        width: 480px;
-                                    }
-                                    .russian-museum {
-                                        display: flex;
-                                        align-items: center;
-                                        margin-left: 0;
-                                        width: 480px;
-                                        margin-top: 30px;
-                                    }
-                                    #famous-pictures {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        margin-left: 0px;
-                                        margin-right: 0px;
-                                        margin-top: 70px;
-                                        width: 480px;
-                                    }
-                                    .famous-pictures-title {
-                                        font-size: 23px;
-                                        width: 300px;
-                                    }
-                                    .four-pictures {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 300px;
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                    }
-                                    .first-picture {
-                                        display: flex;
-                                        flex-direction: column;
-                                        width: 300px;
-                                        align-items: center;
-                                    }
-                                    .first-picture-title {
-                                        text-align: center;
-                                    }
-                                    .first-two-pictures {
-                                        width: 300px;
-                                    }
-                                    .first-picture-text {
-                                        display: flex;
-                                        flex-direction: column;
-                                    }
-                                    .second-picture {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .second-picture-title {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 300px;
-                                    }
-                                    .second-picture-title p {
-                                        color: #7e8dc6;
-                                        font-size: 15px;
-                                        font-weight: bold;
-                                        margin-top: 27px;
-                                    }
-                                    .text-description {
-                                        margin-left: 0px;
-                                        width: 300px;
-                                    }
-                                    .third-picture {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .third-picture p {
-                                        width: 300px;
-                                    }
-                                    .second-text-description {
-                                        width: 300px;
-                                    }
-                                    .four-picture-description {
-                                        display: flex;
-                                        flex-direction: column;
-                                    }
-                                    .second-two-picture {
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .second-text-description {
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                    }
-                                    .third-picture-title>img {
-                                        width: 300px;
-                                    }
-                                    .third-picture-title {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .four-picture {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 480px;
-                                    }
-                                    .four-picture-text {
-                                        width: 300px;
-                                    }
-                                    .four-picture-title {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 300px;
-                                    }
-                                    .first-two-pictures {
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    #gallery-title {
-                                        font-size: 23px;
-                                    }
-                                    #gallery-img {
-                                        margin-top: 30px;
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    #painting-description {
-                                        display: flex;
-                                        margin-left: 0;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 480px;
-                                    }
-                                    #comments {
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 480px;
-                                    }
-                                    .feedback-comments {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 480px;
-                                    }
-                                    .author-feedback {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 300px;
-                                    }
-                                    .our-feedback {
-                                        width: 480px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .first-feedback {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 480px;
-                                        margin-right: 0;
-                                        margin-left: 0;
-                                    }
-                                    .first-feedback>img {
-                                        width: 280px;
-                                    }
-                                    #message-1 {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 480px;
-                                    }
-                                    #author,
-                                    #author-text {
-                                        width: 280px;
-                                    }
-                                    #form {
-                                        width: 300px;
-                                    }
-                                    footer {
-                                        width: 480px;
-                                        font-size: 10px;
-                                        display: flex;
-                                        text-align: center;
-                                    }
-                                    .footer-description {
-                                        padding-left: 21px;
-                                        font-size: 11px;
-                                    }
-                                    .social-networks {
-                                        margin-right: 20px;
-                                    }
-                                    .copyright {
-                                        margin-right: 0;
-                                    }
-                                    .page-links img {
-                                        width: 30px;
-                                    }
-                                    .text-sign {
-                                        margin-left: 0;
-                                        font-size: 15px;
-                                    }
-                                    .text {
-                                        margin-left: 0;
-                                        margin-right: 0;
-                                    }
-                                    .user-topbutton {
-                                        margin-left: 0;
-                                    }
-                                    .page-header {
-                                        display: flex;
-                                        flex-direction: column-reverse;
-                                        align-items: center;
-                                    }
-                                    .personal-account {
-                                        display: flex;
-                                        flex-direction: column;
-                                        width: 300px;
-                                        align-items: center;
-                                        margin-left: 0;
-                                    }
-                                    .user-account-part {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
-                                    .personality {
-                                        display: flex;
-                                        flex-direction: column;
-                                        width: 300px;
-                                        align-items: center;
-                                    }
-                                    .form-title {
-                                        text-align: center;
-                                    }
-                                    .name-description {
-                                        width: 250px;
-                                    }
-                                    .registration-form {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        width: 300px;
-                                    }
-                                    #name,
-                                    #surname,
-                                    #email,
-                                    #password,
-                                    #city,
-                                    #country,
-                                    #username {
-                                        width: 220px;
-                                        margin-right: 0px;
-                                    }
-                                    #education,
-                                    .registration-text,
-                                    #agree {
-                                        width: 220px;
-                                    }
-                                    .video-title {
-                                        font-size: 22px;
-                                    }
-                                }
+                                        body {
+                                            font-family: 'Montserrat', sans-serif;
+                                            width: 1445px;
+                                        }
+                                        
+                                        header {
+                                            background-color: #d5cdc0;
+                                            width: 1445px;
+                                            height: 70px;
+                                            display: flex;
+                                            justify-content: space-around;
+                                            color: #fff;
+                                            font-size: 22px;
+                                        }
+                                        /* title-page */
+                                        
+                                        .title-name {
+                                            display: flex;
+                                            align-items: center;
+                                            padding-left: 40px;
+                                            font-weight: bold;
+                                            width: 700px;
+                                        }
+                                        
+                                        .logo {
+                                            width: 80px;
+                                            height: 65px;
+                                            margin-right: 30px;
+                                        }
+                                        
+                                        .research {
+                                            display: flex;
+                                            align-items: center;
+                                            font-weight: bold;
+                                            width: 200px;
+                                        }
+                                        
+                                        .research-box {
+                                            border: 1px #000 solid;
+                                            border-radius: 5px;
+                                            width: 100px;
+                                            height: 20px;
+                                            margin-left: 15px;
+                                        }
+                                        
+                                        .container {
+                                            width: 1445px;
+                                            background-color: #f8f4eb;
+                                            padding-bottom: 50px;
+                                        }
+                                        
+                                        .ic-menu {
+                                            visibility: hidden;
+                                        }
+                                        
+                                        .main-title-information {
+                                            display: flex;
+                                            padding-top: 60px;
+                                        }
+                                        
+                                        .menu-list {
+                                            width: 200px;
+                                            height: 380px;
+                                            background-color: #dde7e9;
+                                            margin-top: 10px;
+                                            margin-left: 90px;
+                                            margin-right: 20px;
+                                            border-radius: 7px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .menu-list-name {
+                                            text-decoration: none;
+                                            padding: 25px 20px;
+                                            color: #7e8dc6;
+                                            font-size: 18px;
+                                        }
+                                        
+                                        .title-page-img {
+                                            display: flex;
+                                            justify-content: center;
+                                            flex-grow: 1;
+                                        }
+                                        
+                                        .title-page-img>img {
+                                            height: 405px;
+                                            border-radius: 7px;
+                                        }
+                                        
+                                        .user-access {
+                                            display: flex;
+                                            flex-direction: column;
+                                            flex-grow: 1;
+                                        }
+                                        
+                                        .user-account {
+                                            color: #7e8dc6;
+                                            background-color: #dde7e9;
+                                            margin-top: 10px;
+                                            margin-left: 20px;
+                                            width: 200px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 7px;
+                                            font-weight: bold;
+                                            padding-top: 10px;
+                                            padding-bottom: 15px;
+                                        }
+                                        
+                                        .user-account-name {
+                                            font-size: 18px;
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        .user-account-enter {
+                                            font-size: 15px;
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .btn-input {
+                                            width: 120px;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .user-enter {
+                                            background-color: #d6d0c2;
+                                            width: 110px;
+                                            padding: 8px;
+                                            margin-top: 15px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 10px;
+                                            font-size: 18px;
+                                        }
+                                        
+                                        .user-registration {
+                                            background-color: #d6d0c2;
+                                            width: 110px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 10px;
+                                            padding: 8px;
+                                            margin-top: 15px;
+                                            margin-bottom: 15px;
+                                        }
+                                        
+                                        .enter-btn {
+                                            text-decoration: none;
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                        }
+                                        
+                                        .user-blog {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin-top: 40px;
+                                            width: 180px;
+                                            margin-left: 30px;
+                                        }
+                                        
+                                        .user-blog a {
+                                            text-decoration: none;
+                                            color: #876d89;
+                                            font-weight: bold;
+                                            font-size: 15px;
+                                        }
+                                        
+                                        .title-page-btn {
+                                            margin-top: 50px;
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .gallery {
+                                            text-decoration: none;
+                                            margin-right: 60px;
+                                            background-color: #d6d0c2;
+                                            font-size: 15px;
+                                            border-radius: 7px;
+                                            padding: 15px 18px;
+                                            font-weight: bold;
+                                            color: #7e8dc6;
+                                        }
+                                        
+                                        .comments {
+                                            text-decoration: none;
+                                            margin-left: 30px;
+                                            background-color: #d6d0c2;
+                                            font-size: 15px;
+                                            border-radius: 10px;
+                                            padding: 15px 20px;
+                                            font-weight: bold;
+                                            color: #7e8dc6;
+                                        }
+                                        
+                                        .video {
+                                            text-decoration: none;
+                                            margin-left: 80px;
+                                            background-color: #d6d0c2;
+                                            font-size: 15px;
+                                            border-radius: 10px;
+                                            padding: 15px 25px;
+                                            font-weight: bold;
+                                            color: #7e8dc6;
+                                        }
+                                        
+                                        #video {
+                                            margin-top: 80px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                        }
+                                        
+                                        .our-video {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            width: 700px;
+                                            margin-top: 30px;
+                                        }
+                                        
+                                        .video-record {
+                                            width: 300px;
+                                            height: 200px;
+                                        }
+                                        
+                                        .video-title {
+                                            font-size: 28px;
+                                            width: 500px;
+                                            color: #7e8dc6;
+                                            text-align: center;
+                                            font-weight: bold;
+                                            margin-top: 20px;
+                                            margin-bottom: 30px;
+                                        }
+                                        /* biography-page */
+                                        
+                                        #biography {
+                                            width: 1445px;
+                                            background-color: #f8f4eb;
+                                            padding-top: 80px;
+                                            display: flex;
+                                            margin-top: 50px;
+                                            margin-bottom: 50px;
+                                        }
+                                        
+                                        .biography-page {
+                                            width: 500px;
+                                            margin-left: 90px;
+                                            display: flex;
+                                            justify-content: center;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .biography-page-img>img {
+                                            width: 500px;
+                                            height: 350px;
+                                            background-image: none;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .life-ages {
+                                            color: #7e8dc6;
+                                            width: 500px;
+                                            text-align: center;
+                                            margin-top: 21.44px;
+                                            margin-bottom: 21.44px;
+                                            font-size: 2em;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .wise-quote {
+                                            color: #000;
+                                            text-align: center;
+                                            font-size: 17px;
+                                            font-weight: 600;
+                                        }
+                                        
+                                        .biography-information {
+                                            margin-left: 40px;
+                                            width: 700px;
+                                            font-size: 17px;
+                                            line-height: 35px;
+                                            text-indent: 40px;
+                                            text-align: justify;
+                                            font-weight: bold;
+                                            color: #7e8dc6;
+                                        }
+                                        
+                                        .links {
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .links a {
+                                            color: #551A8B;
+                                            font-weight: bold;
+                                            font-size: 15px;
+                                        }
+                                        /* chtonology-page */
+                                        
+                                        .chronology-title {
+                                            text-align: center;
+                                            color: #7e8dc6;
+                                            font-size: 28px;
+                                            padding-top: 50px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .chronology {
+                                            display: flex;
+                                            margin-left: 90px;
+                                        }
+                                        
+                                        .chronology-title-description {
+                                            text-align: center;
+                                            color: #876d89;
+                                            font-size: 19px;
+                                        }
+                                        
+                                        .chronology-paintings {
+                                            margin-top: 40px;
+                                            color: #876d89;
+                                            font-weight: bold;
+                                            line-height: 35px;
+                                            font-size: 15px;
+                                            text-align: justify;
+                                            margin-left: 10px;
+                                            padding-left: 10px;
+                                        }
+                                        
+                                        .picture {
+                                            margin-left: 80px;
+                                            border-radius: 10px;
+                                            width: 330px;
+                                            height: 478px;
+                                            margin-top: 58px;
+                                        }
+                                        
+                                        .link-title {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: flex-end;
+                                            margin-right: 110px;
+                                            font-weight: bold;
+                                            font-size: 16px;
+                                        }
+                                        
+                                        .link-title a {
+                                            color: #551A8B;
+                                            font-weight: bold;
+                                            font-size: 15px;
+                                        }
+                                        /*museum-exhibitions-page */
+                                        
+                                        #museums {
+                                            margin-top: 130px;
+                                            margin-left: 90px;
+                                            margin-right: 110px;
+                                        }
+                                        
+                                        .museum-exhibitions {
+                                            display: flex;
+                                            color: #7e8dc6;
+                                        }
+                                        
+                                        .museum-exhibitions img {
+                                            width: 530px;
+                                            height: 307px;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .luvr {
+                                            margin-top: 21px;
+                                        }
+                                        
+                                        .ermitag {
+                                            margin-left: 17px;
+                                            margin-top: 21px;
+                                        }
+                                        
+                                        .museum-title {
+                                            font-size: 28px;
+                                            text-align: center;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .museum-description {
+                                            font-weight: bold;
+                                            font-size: 16px;
+                                            width: 590px;
+                                        }
+                                        
+                                        .franch-museum {
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .franch-museum img {
+                                            width: 580px;
+                                        }
+                                        
+                                        .franch-museum>a {
+                                            margin-top: 10px;
+                                            margin-left: 20px;
+                                            font-weight: bold;
+                                            color: #551A8B;
+                                            font-size: 15px;
+                                        }
+                                        
+                                        .russian-museum {
+                                            display: flex;
+                                            flex-direction: column;
+                                            margin-left: 50px;
+                                        }
+                                        
+                                        .russian-museum>a {
+                                            margin-top: 10px;
+                                            margin-left: 20px;
+                                            color: #551A8B;
+                                            font-weight: bold;
+                                            font-size: 15px;
+                                        }
+                                        /*famous-pictures page*/
+                                        
+                                        #famous-pictures {
+                                            margin-top: 120px;
+                                            margin-left: 90px;
+                                            margin-right: 110px;
+                                        }
+                                        
+                                        .four-pictures {
+                                            display: flex;
+                                            margin-top: 50px;
+                                        }
+                                        
+                                        .four-pictures img {
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .famous-pictures-title {
+                                            text-align: center;
+                                            color: #7e8dc6;
+                                            font-size: 28px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .first-two-pictures {
+                                            width: 622.5px;
+                                        }
+                                        
+                                        .second-two-picture {
+                                            width: 622.5px;
+                                        }
+                                        
+                                        .first-picture {
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .first-picture-title {
+                                            color: #876d89;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .first-picture-text {
+                                            display: flex;
+                                        }
+                                        
+                                        .first-picture-text2 {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            line-height: 20px;
+                                            font-weight: bold;
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .first-picture-description p {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            line-height: 21px;
+                                            font-weight: bold;
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .first-picture-description img {
+                                            width: 182px;
+                                        }
+                                        
+                                        .second-picture {
+                                            display: flex;
+                                        }
+                                        
+                                        .second-picture-title {
+                                            color: #876d89;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .second-picture-title img {
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .second-picture-title p {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            margin-top: 27px;
+                                        }
+                                        
+                                        .text-description {
+                                            margin-top: 25px;
+                                            margin-left: 20px;
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            line-height: 21px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .second-two-picture {
+                                            margin-left: 35px;
+                                        }
+                                        
+                                        .third-picture {
+                                            display: flex;
+                                        }
+                                        
+                                        .third-picture-title img {
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .third-picture-title {
+                                            color: #876d89;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .third-picture-title p {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            line-height: 20px;
+                                            width: 390px;
+                                        }
+                                        
+                                        .second-text-description {
+                                            margin-top: 20px;
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            line-height: 21px;
+                                            margin-left: 7px;
+                                        }
+                                        
+                                        .four-picture {
+                                            display: flex;
+                                        }
+                                        
+                                        .four-picture-title {
+                                            color: #876d89;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .four-picture-title p {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            line-height: 20px;
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .four-text-description {
+                                            margin-left: 10px;
+                                        }
+                                        
+                                        .fourth-picture+p {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            line-height: 20px;
+                                        }
+                                        
+                                        .four-picture-description {
+                                            margin-right: 8px;
+                                            display: flex;
+                                        }
+                                        
+                                        .four-picture-text {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            line-height: 20px;
+                                        }
+                                        /* gallery-page */
+                                        
+                                        #gallery {
+                                            margin-top: 90px;
+                                        }
+                                        
+                                        #painting-description {
+                                            display: flex;
+                                            align-items: center;
+                                        }
+                                        
+                                        .close-btn {
+                                            margin-bottom: 20px;
+                                            margin-right: 20px;
+                                            margin-left: 90px;
+                                            width: 100px;
+                                            height: 100px;
+                                        }
+                                        
+                                        .my-img {
+                                            height: 600px;
+                                            border-radius: 7px;
+                                        }
+                                        
+                                        .img-description {
+                                            margin-left: 50px;
+                                        }
+                                        
+                                        .img-description p {
+                                            width: 400px;
+                                            color: #7e8dc6;
+                                            font-weight: bold;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .img-title {
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                        }
+                                        
+                                        .first-img-title {
+                                            color: #876d89;
+                                            width: 400px;
+                                        }
+                                        
+                                        #gallery-title {
+                                            color: #7e8dc6;
+                                            font-size: 28px;
+                                            font-weight: bold;
+                                            text-align: center;
+                                        }
+                                        
+                                        #gallery-img {
+                                            margin-top: 30px;
+                                            margin-left: 90px;
+                                            margin-right: 110px;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        #gallery-img img {
+                                            margin-top: 15px;
+                                            border-radius: 6px;
+                                        }
+                                        
+                                        #gallery-img img:hover {
+                                            transform: scale(2);
+                                            transition: all .5s ease;
+                                        }
+                                        /*feedback-page */
+                                        
+                                        #comments {
+                                            margin-top: 80px;
+                                            margin-left: 90px;
+                                            margin-right: 110px;
+                                        }
+                                        
+                                        .feedback-comments {
+                                            display: flex;
+                                            margin-top: 30px;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .feedback-title {
+                                            color: #7e8dc6;
+                                            font-size: 28px;
+                                            font-weight: bold;
+                                            text-align: center;
+                                        }
+                                        
+                                        .first-feedback {
+                                            display: flex;
+                                            margin-top: 45px;
+                                            margin-bottom: 20px;
+                                            width: 700px;
+                                        }
+                                        
+                                        .our-feedback {
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .first-feedback img {
+                                            border-radius: 10px;
+                                            width: 220px;
+                                        }
+                                        
+                                        #message-1 {
+                                            margin-top: 30px;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            display: flex;
+                                            flex-direction: column;
+                                            width: 700px;
+                                        }
+                                        
+                                        #author {
+                                            margin-bottom: 15px;
+                                        }
+                                        
+                                        #author {
+                                            color: #551A8B;
+                                        }
+                                        
+                                        .author-feedback {
+                                            margin-top: 15px;
+                                            margin-left: 20px;
+                                        }
+                                        
+                                        .text {
+                                            color: #7e8dc6;
+                                            font-size: 16px;
+                                            font-weight: bold;
+                                            margin-left: 20px;
+                                            margin-right: 30px;
+                                            line-height: 30px;
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .text-sign {
+                                            color: #876d89;
+                                            font-size: 16px;
+                                            font-weight: bold;
+                                            margin-left: 20px;
+                                        }
+                                        
+                                        #form {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            width: 420px;
+                                            background-color: #dde7e9;
+                                            align-items: center;
+                                            border-radius: 7px;
+                                            padding-top: 30px;
+                                            padding-bottom: 30px;
+                                            color: #7e8dc6;
+                                            font-weight: bold;
+                                            margin-top: 50px;
+                                            height: 500px;
+                                        }
+                                        
+                                        .form-title {
+                                            color: #7e8dc6;
+                                            font-size: 21px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .autor-name,
+                                        #text {
+                                            border-radius: 5px;
+                                            width: 200px;
+                                        }
+                                        
+                                        input {
+                                            border-radius: 5px;
+                                            width: 200px;
+                                        }
+                                        
+                                        .name-label {
+                                            font-size: 17px;
+                                        }
+                                        
+                                        #form-btn {
+                                            width: 90px;
+                                            height: 40px;
+                                            margin-top: 20px;
+                                            color: #7e8dc6;
+                                            font-size: 15px;
+                                            background-color: #d6d0c2;
+                                            font-weight: bold;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-decoration: none;
+                                            padding: 5px 10px;
+                                            border-radius: 7px;
+                                        }
+                                        
+                                        footer {
+                                            display: flex;
+                                            background-color: #d5cdc0;
+                                            height: 100px;
+                                            color: #000;
+                                            font-weight: bold;
+                                            width: 1445px;
+                                        }
+                                        
+                                        .footer-description {
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            padding-left: 50px;
+                                            width: 900px;
+                                        }
+                                        
+                                        .copyright {
+                                            margin-right: 15px;
+                                        }
+                                        
+                                        .social-networks {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .page-links {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .page-links-title {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .page-links img {
+                                            display: flex;
+                                            align-items: center;
+                                        }
+                                        /*registration-page */
+                                        
+                                        .registration {
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .form-title {
+                                            font-size: 22px;
+                                            font-weight: bold;
+                                            margin-bottom: 20px;
+                                        }
+                                        
+                                        .registration-form {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            width: 700px;
+                                            background-color: #dde7e9;
+                                            border-radius: 7px;
+                                            padding-top: 30px;
+                                            padding-bottom: 30px;
+                                            color: #7e8dc6;
+                                            font-weight: bold;
+                                            margin-top: 50px;
+                                            font-size: 18px;
+                                        }
+                                        
+                                        #agree {
+                                            width: 200px;
+                                            font-size: 14px;
+                                        }
+                                        
+                                        .form-btn2 {
+                                            width: 140px;
+                                            height: 40px;
+                                            margin-top: 20px;
+                                            color: #7e8dc6;
+                                            font-size: 14px;
+                                            background-color: #d6d0c2;
+                                            font-weight: bold;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-decoration: none;
+                                            padding: 5px 10px;
+                                            border-radius: 7px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        #name,
+                                        #surname,
+                                        #email,
+                                        #password,
+                                        #city,
+                                        #country,
+                                        #username {
+                                            width: 250px;
+                                            margin-right: 50px;
+                                        }
+                                        
+                                        .registration-text,
+                                        #agree,
+                                        #education {
+                                            width: 300px;
+                                        }
+                                        /* user account page*/
+                                        
+                                        .page-header {
+                                            display: grid;
+                                            grid-template-areas: "page-title user-topbutton";
+                                            grid-template-columns: 80% 20%;
+                                        }
+                                        
+                                        .page-title {
+                                            text-align: center;
+                                            color: #876d89;
+                                            font-size: 25px;
+                                            font-weight: bold;
+                                            padding-top: 40px;
+                                        }
+                                        
+                                        .user-topbutton {
+                                            border-radius: 7px;
+                                            padding: 15px 20px;
+                                            font-weight: bold;
+                                            color: #7e8dc6;
+                                            background-color: #d6d0c2;
+                                            text-decoration: none;
+                                            font-size: 16px;
+                                            width: 100px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            margin-top: 20px;
+                                            margin-left: 70px;
+                                        }
+                                        
+                                        .user-account-part {
+                                            display: grid;
+                                            grid-template-areas: "personal-account navigation-btn";
+                                            grid-template-columns: 70% 30%;
+                                            margin-top: 50px;
+                                        }
+                                        
+                                        .navigation-btn {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            margin-top: 40px;
+                                        }
+                                        
+                                        .navigation-btn a {
+                                            margin-top: 20px;
+                                            color: #876d89;
+                                            font-weight: bold;
+                                            font-size: 18px;
+                                        }
+                                        
+                                        .user-chat {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            width: 217px;
+                                            margin-top: 40px;
+                                        }
+                                        
+                                        .our-friends {
+                                            margin-top: 70px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            width: 217px;
+                                            background-color: #dde7e9;
+                                            border-radius: 7px;
+                                            padding-bottom: 20px;
+                                        }
+                                        
+                                        .our-friends-title {
+                                            text-align: center;
+                                            color: #7e8dc6;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                            padding-top: 20px;
+                                        }
+                                        
+                                        .our-friends a {
+                                            font-size: 14px;
+                                        }
+                                        
+                                        .personal-account {
+                                            background-color: #dde7e9;
+                                            padding-top: 60px;
+                                            margin-left: 60px;
+                                            padding-bottom: 60px;
+                                            border-radius: 7px;
+                                        }
+                                        
+                                        .personal-account-title {
+                                            text-align: center;
+                                            color: #7e8dc6;
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .personality {
+                                            display: grid;
+                                            grid-template-areas: "personality-face personality-description";
+                                            grid-template-columns: 40% 60%;
+                                            margin-top: 30px;
+                                        }
+                                        
+                                        .personality img {
+                                            width: 200px;
+                                            height: 200px;
+                                            margin-bottom: 20px;
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .personality a {
+                                            margin-top: 10px;
+                                            text-decoration: none;
+                                            font-weight: bold;
+                                            color: #4f699a;
+                                        }
+                                        
+                                        .personality-face {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            margin-bottom: 40px;
+                                        }
+                                        
+                                        .personality-description {
+                                            margin-bottom: 40px;
+                                        }
+                                        
+                                        .personality-description div {
+                                            margin-top: 10px;
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .name-description {
+                                            display: grid;
+                                            grid-template-areas: "name-title name-example";
+                                            grid-template-columns: 40% 60%;
+                                        }
+                                        
+                                        .name-example {
+                                            margin-left: 20px;
+                                            color: #7e8dc6;
+                                        }
+                                        
+                                        .name-title {
+                                            color: #876d89;
+                                        }
+                                        
+                                        .btn-correct {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .add-topic {
+                                            border-radius: 7px;
+                                            padding: 15px 20px;
+                                            font-weight: bold;
+                                            color: #7e8dc6;
+                                            background-color: #d6d0c2;
+                                            text-decoration: none;
+                                            font-size: 16px;
+                                        }
+                                        
+                                        .edit {
+                                            border-radius: 7px;
+                                            padding: 15px 20px;
+                                            font-weight: bold;
+                                            color: #7e8dc6;
+                                            background-color: #d6d0c2;
+                                            text-decoration: none;
+                                            font-size: 16px;
+                                        }
+                                        /*mobile version */
+                                        
+                                        @media screen and (max-width:480px) {
+                                            body {
+                                                width: 480px;
+                                            }
+                                            header {
+                                                width: 480px;
+                                                margin: 0 auto;
+                                                display: flex;
+                                            }
+                                            .title-name {
+                                                font-size: 20px;
+                                                width: 300px;
+                                                padding-left: 0;
+                                            }
+                                            .logo {
+                                                margin-right: 10px;
+                                            }
+                                            .research {
+                                                display: none;
+                                            }
+                                            .container {
+                                                width: 480px;
+                                            }
+                                            .ic-menu {
+                                                visibility: visible;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                color: #7e8dc6;
+                                                font-size: 20px;
+                                                padding-top: 40px;
+                                                font-weight: bold;
+                                            }
+                                            .main-title-information {
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                            }
+                                            .menu-list {
+                                                display: flex;
+                                                background-color: #f8f4eb;
+                                                align-items: flex-start;
+                                                height: 290px;
+                                                flex-grow: 1;
+                                            }
+                                            .menu-list-name {
+                                                display: flex;
+                                                font-weight: bold;
+                                                font-size: 20px;
+                                                color: #7e8dc6;
+                                                padding-left: 0px;
+                                                padding-right: 0px;
+                                                padding-top: 15px;
+                                                padding-bottom: 15px;
+                                            }
+                                            .main-title-information {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                padding-top: 0px;
+                                            }
+                                            .title-page-img {
+                                                display: none;
+                                            }
+                                            .user-access {
+                                                display: flex;
+                                                align-items: center;
+                                                flex-grow: 1;
+                                            }
+                                            .user-account {
+                                                margin-left: 0px;
+                                                width: 220px;
+                                                padding-top: 10px;
+                                                padding-bottom: 10px;
+                                            }
+                                            .user-blog {
+                                                display: flex;
+                                                justify-content: center;
+                                                margin-left: 0px;
+                                            }
+                                            .title-page-btn {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 110px;
+                                            }
+                                            .title-page {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .gallery {
+                                                margin-right: 0px;
+                                                margin-bottom: 15px;
+                                            }
+                                            .comments {
+                                                margin-left: 0px;
+                                                margin-bottom: 15px;
+                                            }
+                                            .video {
+                                                margin-left: 0;
+                                            }
+                                            #biography {
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .biography-page {
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                margin-left: 80px;
+                                                margin-right: 80px;
+                                            }
+                                            .biography-page-img>img {
+                                                width: 280px;
+                                                height: 200px;
+                                                border-radius: 10px;
+                                            }
+                                            .life-ages {
+                                                color: #7e8dc6;
+                                                font-size: 20px;
+                                                display: flex;
+                                                text-align: center;
+                                                width: 100px;
+                                            }
+                                            .wise-quote {
+                                                color: #000;
+                                                text-align: center;
+                                                font-size: 17px;
+                                                font-weight: 600;
+                                                width: 250px;
+                                            }
+                                            .biography-information p {
+                                                width: 300px;
+                                            }
+                                            .biography-information {
+                                                margin: 0 auto;
+                                                font-size: 15px;
+                                                font-weight: bold;
+                                                color: #7e8dc6;
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .links {
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .links a {
+                                                font-size: 12px;
+                                                text-align: left;
+                                                margin-left: 0;
+                                                padding-right: 40px;
+                                            }
+                                            #video {
+                                                width: 480px;
+                                            }
+                                            .video-record {
+                                                margin-top: 30px;
+                                            }
+                                            .our-video {
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 300px;
+                                                align-items: center;
+                                                margin-top: 10px;
+                                            }
+                                            #history {
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .picture {
+                                                display: none;
+                                            }
+                                            .chronology-paintings {
+                                                width: 290px;
+                                                margin-top: 40px;
+                                                color: #876d89;
+                                                font-weight: bold;
+                                                line-height: 35px;
+                                                font-size: 15px;
+                                                text-align: left;
+                                                padding-left: 0px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                margin-left: 0;
+                                            }
+                                            .chronology-title {
+                                                text-align: center;
+                                                color: #7e8dc6;
+                                                font-size: 22px;
+                                                padding-top: 10px;
+                                                font-weight: bold;
+                                                width: 200px;
+                                                margin-left: 100px;
+                                                margin-right: 100px;
+                                            }
+                                            .chronology-paintings li {
+                                                width: 290px;
+                                                margin-left: 30px;
+                                                font-size: 15px;
+                                            }
+                                            .chronology {
+                                                width: 300px;
+                                                margin-left: 0;
+                                            }
+                                            .chronology-title-description {
+                                                text-align: center;
+                                                color: #876d89;
+                                                font-size: 16px;
+                                            }
+                                            .link-title {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                font-weight: bold;
+                                                font-size: 14px;
+                                                margin-right: 0;
+                                                width: 300px;
+                                            }
+                                            .link-title>a {
+                                                font-size: 14px;
+                                                text-align: center;
+                                            }
+                                            .museum-exhibitions {
+                                                display: flex;
+                                                flex-direction: column;
+                                                color: #7e8dc6;
+                                            }
+                                            .museum-exhibitions img {
+                                                width: 300px;
+                                                height: 147px;
+                                                border-radius: 10px;
+                                            }
+                                            .luvr,
+                                            .ermitag {
+                                                margin-top: 0px;
+                                                margin-left: 0px;
+                                            }
+                                            #museums {
+                                                margin-top: 30px;
+                                                margin-left: 0;
+                                                margin-right: 0;
+                                                display: flex;
+                                                align-items: center;
+                                                width: 480px;
+                                            }
+                                            .museum-title {
+                                                font-size: 23px;
+                                                font-weight: bold;
+                                                width: 300px;
+                                                margin-top: 30px;
+                                            }
+                                            .museum-description {
+                                                font-weight: bold;
+                                                font-size: 16px;
+                                                width: 300px;
+                                            }
+                                            .franch-museum {
+                                                display: flex;
+                                                align-items: center;
+                                                margin-left: 0;
+                                                width: 480px;
+                                            }
+                                            .russian-museum {
+                                                display: flex;
+                                                align-items: center;
+                                                margin-left: 0;
+                                                width: 480px;
+                                                margin-top: 30px;
+                                            }
+                                            #famous-pictures {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                margin-left: 0px;
+                                                margin-right: 0px;
+                                                margin-top: 70px;
+                                                width: 480px;
+                                            }
+                                            .famous-pictures-title {
+                                                font-size: 23px;
+                                                width: 300px;
+                                            }
+                                            .four-pictures {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 300px;
+                                                margin-left: 0;
+                                                margin-right: 0;
+                                            }
+                                            .first-picture {
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 300px;
+                                                align-items: center;
+                                            }
+                                            .first-picture-title {
+                                                text-align: center;
+                                            }
+                                            .first-two-pictures {
+                                                width: 300px;
+                                            }
+                                            .first-picture-text {
+                                                display: flex;
+                                                flex-direction: column;
+                                            }
+                                            .second-picture {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .second-picture-title {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 300px;
+                                            }
+                                            .second-picture-title p {
+                                                color: #7e8dc6;
+                                                font-size: 15px;
+                                                font-weight: bold;
+                                                margin-top: 27px;
+                                            }
+                                            .text-description {
+                                                margin-left: 0px;
+                                                width: 300px;
+                                            }
+                                            .third-picture {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .third-picture p {
+                                                width: 300px;
+                                            }
+                                            .second-text-description {
+                                                width: 300px;
+                                            }
+                                            .four-picture-description {
+                                                display: flex;
+                                                flex-direction: column;
+                                            }
+                                            .second-two-picture {
+                                                margin-left: 0;
+                                                margin-right: 0;
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .second-text-description {
+                                                margin-left: 0;
+                                                margin-right: 0;
+                                            }
+                                            .third-picture-title>img {
+                                                width: 300px;
+                                            }
+                                            .third-picture-title {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .four-picture {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 480px;
+                                            }
+                                            .four-picture-text {
+                                                width: 300px;
+                                            }
+                                            .four-picture-title {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 300px;
+                                            }
+                                            .first-two-pictures {
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            #gallery-title {
+                                                font-size: 23px;
+                                            }
+                                            #gallery-img {
+                                                margin-top: 30px;
+                                                margin-left: 0;
+                                                margin-right: 0;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            #painting-description {
+                                                display: flex;
+                                                margin-left: 0;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 480px;
+                                            }
+                                            .close-btn {
+                                                margin-right: 0;
+                                                margin-left: 0;
+                                            }
+                                            .my-img {
+                                                height: 400px;
+                                            }
+                                            .first-img-title {
+                                                font-size: 20px;
+                                                text-align: center;
+                                                width: 300px;
+                                            }
+                                            .img-description {
+                                                margin-left: 0;
+                                                margin-top: 20px;
+                                                width: 300px;
+                                            }
+                                            .img-description p {
+                                                width: 300px;
+                                                color: #7e8dc6;
+                                                font-weight: bold;
+                                                font-size: 17px;
+                                            }
+                                            #comments {
+                                                margin-left: 0;
+                                                margin-right: 0;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 480px;
+                                            }
+                                            .feedback-comments {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 480px;
+                                            }
+                                            .author-feedback {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 300px;
+                                            }
+                                            .our-feedback {
+                                                width: 480px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .first-feedback {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 480px;
+                                                margin-right: 0;
+                                                margin-left: 0;
+                                            }
+                                            .first-feedback>img {
+                                                width: 280px;
+                                            }
+                                            #message-1 {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 480px;
+                                            }
+                                            #author,
+                                            #author-text {
+                                                width: 280px;
+                                            }
+                                            #form {
+                                                width: 300px;
+                                            }
+                                            footer {
+                                                width: 480px;
+                                                font-size: 10px;
+                                                display: flex;
+                                                text-align: center;
+                                            }
+                                            .footer-description {
+                                                padding-left: 21px;
+                                                font-size: 11px;
+                                            }
+                                            .social-networks {
+                                                margin-right: 20px;
+                                            }
+                                            .copyright {
+                                                margin-right: 0;
+                                            }
+                                            .page-links img {
+                                                width: 30px;
+                                            }
+                                            .text-sign {
+                                                margin-left: 0;
+                                                font-size: 15px;
+                                            }
+                                            .text {
+                                                margin-left: 0;
+                                                margin-right: 0;
+                                            }
+                                            .user-topbutton {
+                                                margin-left: 0;
+                                            }
+                                            .page-header {
+                                                display: flex;
+                                                flex-direction: column-reverse;
+                                                align-items: center;
+                                            }
+                                            .personal-account {
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 300px;
+                                                align-items: center;
+                                                margin-left: 0;
+                                            }
+                                            .user-account-part {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                            }
+                                            .personality {
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 300px;
+                                                align-items: center;
+                                            }
+                                            .form-title {
+                                                text-align: center;
+                                            }
+                                            .name-description {
+                                                width: 250px;
+                                            }
+                                            .registration-form {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 300px;
+                                            }
+                                            #name,
+                                            #surname,
+                                            #email,
+                                            #password,
+                                            #city,
+                                            #country,
+                                            #username {
+                                                width: 220px;
+                                                margin-right: 0px;
+                                            }
+                                            #education,
+                                            .registration-text,
+                                            #agree {
+                                                width: 220px;
+                                            }
+                                            .video-title {
+                                                font-size: 22px;
+                                            }
+                                        }
