@@ -881,6 +881,7 @@
                                         #education p {
                                             display: flex;
                                             justify-content: flex-start;
+                                            align-items: center;
                                         }
                                         
                                         #agree p {
@@ -890,8 +891,10 @@
                                             align-items: center;
                                         }
                                         
-                                        #agree input,
-                                        #education input {
+                                        input[type="radio" i],
+                                        #agree input {
+                                            margin-top: 0px;
+                                            margin-bottom: 0px;
                                             width: 14px;
                                         }
                                         
@@ -1664,7 +1667,7 @@
                                                 display: flex;
                                                 flex-direction: column;
                                                 align-items: center;
-                                                width: 300px;
+                                                width: 340px;
                                             }
                                             #name,
                                             #surname,
