@@ -871,12 +871,39 @@
                                             color: #7e8dc6;
                                             font-weight: bold;
                                             margin-top: 50px;
-                                            font-size: 18px;
                                         }
                                         
                                         #agree {
                                             width: 200px;
                                             font-size: 14px;
+                                        }
+                                        
+                                        #education p {
+                                            display: flex;
+                                            justify-content: flex-start;
+                                        }
+                                        
+                                        #agree p {
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            font-size: 12px;
+                                            align-items: center;
+                                        }
+                                        
+                                        #agree input,
+                                        #education input {
+                                            width: 14px;
+                                        }
+                                        
+                                        .message {
+                                            border-radius: 5px;
+                                            width: 250px;
+                                        }
+                                        
+                                        .registration-text {
+                                            width: 252px;
+                                            height: 100px;
+                                            border-radius: 5px;
                                         }
                                         
                                         .form-btn2 {
@@ -904,13 +931,11 @@
                                         #country,
                                         #username {
                                             width: 250px;
-                                            margin-right: 50px;
                                         }
                                         
-                                        .registration-text,
                                         #agree,
                                         #education {
-                                            width: 300px;
+                                            width: 250px;
                                         }
                                         /* user account page*/
                                         
@@ -1648,13 +1673,26 @@
                                             #city,
                                             #country,
                                             #username {
-                                                width: 220px;
+                                                width: 208px;
                                                 margin-right: 0px;
                                             }
                                             #education,
                                             .registration-text,
                                             #agree {
-                                                width: 220px;
+                                                width: 216px;
+                                            }
+                                            #agree p {
+                                                font-size: 10px;
+                                                display: flex;
+                                                align-items: center;
+                                                font-weight: bold;
+                                            }
+                                            #agree input {
+                                                width: 10px;
+                                            }
+                                            .message {
+                                                border-radius: 5px;
+                                                width: 216px;
                                             }
                                             .video-title {
                                                 font-size: 22px;

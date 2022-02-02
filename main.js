@@ -20,22 +20,23 @@ function closePainting() {
     back.src = "img/back.jpg";
     paint.appendChild(back);
     back.classList.add("close-btn");
-
-
     back.addEventListener('click', function() {
         gallery.hidden = false;
 
         paint.innerText = "";
-
     });
+
 };
+
 
 
 
 
 img.addEventListener('click', function() {
     gallery.hidden = true;
+
     closePainting();
+
 
     let img1 = document.createElement('img');
     img1.src = "img/gallery-img-2.jpg";
@@ -53,7 +54,6 @@ img.addEventListener('click', function() {
     text.innerText = "Богоматерь с младенцем";
 
     description.innerHTML = "Эта картина относится к позднему периоду творчества Леонардо. Ее дом сейчас находится в большой галерее Лувра. Да Винчи использовал непопулярный в то время сюжет для Италии под названием «Анна-трио». Святая Мария, сидящая на коленях у матери, держит на руках Младенца Иисуса. Леонардо сделал множество зарисовок к этой истории, но так и не завершил работу. Саму картину мастер писал приблизительно десять лет, но многие детали в ней так и остались незавершенными."
-
 
 
 });
