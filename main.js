@@ -3,12 +3,13 @@
 
 const menu = document.querySelector('.ic-menu');
 const menu_list = document.querySelector('.menu-list');
+let main_menu = document.querySelector('.main-title-information');
 
 menu.addEventListener('click', function() {
 
 
-    if (menu_list.style.display === 'none') menu_list.style.display = 'flex';
-    else menu_list.style.display = 'none';
+    menu_list.style.display = 'flex';
+
 
 });
 
