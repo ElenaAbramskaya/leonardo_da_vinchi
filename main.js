@@ -1,3 +1,23 @@
+/*menu-list */
+
+
+const menu = document.querySelector('.ic-menu');
+const menu_list = document.querySelector('.menu-list');
+
+menu.addEventListener('click', function() {
+
+
+    if (menu_list.style.display === 'none') menu_list.style.display = 'flex';
+    else menu_list.style.display = 'none';
+
+});
+
+
+
+
+
+
+
 /*gallery*/
 let gallery = document.getElementById('gallery-title');
 const img = document.getElementById('gall-img');

@@ -84,6 +84,10 @@
                                             flex-grow: 1;
                                         }
                                         
+                                        .title-img {
+                                            display: none;
+                                        }
+                                        
                                         .title-page-img>img {
                                             height: 405px;
                                             border-radius: 7px;
@@ -1162,6 +1166,7 @@
                                                 align-items: flex-start;
                                                 height: 290px;
                                                 flex-grow: 1;
+                                                display: none;
                                             }
                                             .menu-list-name {
                                                 display: flex;
@@ -1182,10 +1187,15 @@
                                             .title-page-img {
                                                 display: none;
                                             }
+                                            .title-img {
+                                                display: block;
+                                                margin-top: 30px;
+                                            }
                                             .user-access {
                                                 display: flex;
                                                 align-items: center;
                                                 flex-grow: 1;
+                                                margin-top: 30px;
                                             }
                                             .user-account {
                                                 margin-left: 0px;
